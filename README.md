@@ -46,5 +46,24 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Core Framework dark/light mode toggle in Builder.
 ## Custom Elements
 ###### 3D Model Viewer
-* Support glb/gltf.
-* Support model animation.
+* Support glb/gltf, model animation, lazy load, camera control, etc.
+###### Copy to Clipboard Button
+* Support Dynamic tag as copy content.
+* Specify class/id to copy its text content, option to specfiy tags to exlude.
+* Specify element bricks id and automatically pull element json as copy content.
+* Select Template to export in frontend.
+###### View Form Subimmission in Frontend
+* Select User Roles allow to view.
+* option to excludes form fields.
+* Limit total entries return.
+* Support filter by date.
+* Support pagination for default table.
+* Support advance table with export, pagination, column reorder, responsive.
+## Enhance Native Bricks Elements
+###### View Form Subimmission in Frontend
+* Support Splide Extension UrlHashNavigation, AutoScroll, Intersection. Extension assets only load if enabled.
+* Support sync sliders.
+* Number/fraction pagination.
+* Progress Bar for overall progress and slide duration progress.
+* Play/Pause button for autoplay and autoscroll.
+* 
