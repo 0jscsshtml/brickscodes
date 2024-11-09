@@ -1,17 +1,1 @@
-{
-	"name" : "Brickscodes",
-	"slug" : "brickscodes",
-	"author" : "<a href='https://brickscode.gumroad.com/'>Eric Chong</a>",
-	"author_profile" : "https://github.com/0jscsshtml",
-	"version" : "1.0.1",
-	"download_url" : "https://github.com/0jscsshtml/Brickscodes/blob/main/brickscodes.zip",
-	"requires" : "1.0.0",
-	"tested" : "6.6.2",
-	"requires_php" : "5.3",
-	"last_updated" : "2024-12-31 02:10:00",
-	"sections" : {
-		"description": "This is an updated version of the plugin.",
-		"installation": "Download and upload the zip file.",
-		"changelog" : "<h4>1.0 –  31 dec 2024</h4><ul><li>Initital release.</li></ul>"
-	},
-}
+
