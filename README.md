@@ -60,10 +60,9 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Support pagination for default table.
 * Support advance table with export, pagination, column reorder, responsive.
 ## Enhance Native Bricks Elements
-###### View Form Subimmission in Frontend
+###### Slider Nested
 * Support Splide Extension UrlHashNavigation, AutoScroll, Intersection. Extension assets only load if enabled.
 * Support sync sliders.
 * Number/fraction pagination.
 * Progress Bar for overall progress and slide duration progress.
 * Play/Pause button for autoplay and autoscroll.
-* 
