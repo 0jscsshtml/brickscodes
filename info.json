@@ -3,7 +3,7 @@
 	"slug" : "brickscodes",
 	"author" : "<a href='https://brickscode.gumroad.com/'>Eric Chong</a>",
 	"author_profile" : "https://github.com/0jscsshtml",
-	"version" : "1.0.1",
+	"version" : "1.0.0",
 	"download_url" : "https://brickscode.gumroad.com/l/brickscodes-pro",
 	"requires" : "1.0.0",
 	"tested" : "5.8",
