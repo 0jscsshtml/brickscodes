@@ -6,7 +6,7 @@
 	"version" : "1.0.1",
 	"download_url" : "https://brickscode.gumroad.com/l/brickscodes-pro",
 	"requires" : "1.0.0",
-	"tested" : "5.8",
+	"tested" : "6.6.2",
 	"requires_php" : "5.3",
 	"last_updated" : "2024-12-31 02:10:00",
 	"sections" : {
