@@ -18,4 +18,33 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * If plugin deactivated or feature disabled, your elements query settings will continue to work. Saved query records will be reset.
 ###### Add New Elements Shortcut Bar
 * New shortcut bar at Structure Panel to quickly add predefined common elements and auto set active to the newly added element.
-###### Add New Elements Shortcut Bar
+###### Element Visibility in Builder/Frontend
+* Apply Global Class 'bc-hide-in-canvas' to element, element will render in Frontend but hide in Builder. 
+* Apply Global Class 'bc-hide-in-frontend' to element, element will not render in Frontend, element with red border render in Canvas.
+* New action shortcut bar at Structure Panel to quickly toggle to check elements in 'bc-hide-in-canvas' and 'bc-hide-in-frontend.
+###### Expand/Collapse All Children of Active Element
+* New action shortcut bar at Structure Panel to quickly toggle to expand/collapse current active element at Structure Panel.
+## Conditions
+###### New Template Condition Control
+* New control allow you to use dynamic data from custom field, compare the value you defined and add the score 10 to template.
+## Dynamic Tags
+###### User Ip Address
+* {bc_user_ip}
+###### User Last Logged-in
+* {bc_user_last_login} - Display Date.
+* {bc_user_last_login:30} - Display human_time_diff format if less than the argument value.
+###### User Registered Date
+* {bc_user_register_date}
+###### Post Terms
+* {bc_post_type_taxonomy_terms:post_type_slug:taxonomy_slug} - This will return terms id and name for select/checkbox/radio options. Replace post_type_slug and taxonomy_slug to your target slug.
+## Global Classes and Variables
+###### Core Framework Free Integration
+* Auto sync changes that made on Core Framework settings page to Builder.
+* All Core Framework classes and variable are auto import to Builder.
+* Separate modal for Core Framework Variables.
+* When deactivate plugin, you may choose to keep Core Framework.
+* Core Framework dark/light mode toggle in Builder.
+## Custom Elements
+###### 3D Model Viewer
+* Support glb/gltf.
+* Support model animation.
