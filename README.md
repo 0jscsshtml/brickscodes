@@ -52,8 +52,8 @@ Download at https://brickscode.gumroad.com/l/brickscodes-pro
 ###### Copy to Clipboard Button
 * Support Dynamic tag as copy content.
 * Specify class/id to copy its text content, option to specfiy tags to exlude.
-* Specify element bricks id and automatically pull element json as copy content.
-* Select Template to export in frontend.
+* Specify element bricks id and automatically pull element json as copy content. (require user log in to copy)
+* Select Template to export in frontend. (require user log in to export)
 ###### View Form Subimmission in Frontend
 * Select User Roles allow to view.
 * option to excludes form fields.
