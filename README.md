@@ -1,8 +1,6 @@
 # Brickscodes
 Elevate your Bricks Builder experience with this powerful plugin designed to seamlessly integrate with Bricks. Packed with custom elements, editor enhancements, custom conditions, custom dynamic tags, native elements enhancements, etc. This plugin extends the functionality of Bricks while adhering to WordPress best practices.
 
-Download at https://brickscode.gumroad.com/l/brickscodes-pro
-
 ## Builder Tweaks
 ###### Compact Left Panel
 * Expand/Collapse element category groups.
@@ -68,3 +66,14 @@ Download at https://brickscode.gumroad.com/l/brickscodes-pro
 * Number/fraction pagination.
 * Progress Bar for overall progress and slide duration progress.
 * Play/Pause button for autoplay and autoscroll.
+
+  
+## Preview
+#### Query Manager
+![Query Manager](https://github.com/user-attachments/assets/f5721e97-89b0-47d6-8dfd-e3b3055d049b)
+
+#### Core Framework Free Integration
+![Core Framework](https://github.com/user-attachments/assets/63ef2fd7-9a94-4991-b9da-b0fb90965685)
+
+#### View Form Submission In Frontend
+![Form Submission](https://github.com/user-attachments/assets/4b48b9e4-d141-41c6-94fd-8d6b31f0b7f6)
