@@ -7,11 +7,11 @@
  *
  * @wordpress-plugin
  * Plugin Name:   Brickscodes
- * Plugin URI:    https://brickscode.gumroad.com/l/brickscodes-pro
+ * Plugin URI:    https://github.com/0jscsshtml/brickscodes/
  * Description:   Elevate Your Bricks Builder Experience with this powerful plugin designed to seamlessly integrate with Bricks Builder. Packed with custom elements, editor enhancements, custom conditions, custom dynamic tags, native elements enhancements, etc.
  * Version:       1.0.0
  * Author:        Eric Chong
- * Author URI:    https://brickscode.gumroad.com/
+ * Author URI:    https://github.com/0jscsshtml/brickscodes/
  * Text Domain:   brickscodes
  * Domain Path:   /lang
  * License:       GPLv2
@@ -32,16 +32,16 @@ define( 'BRICKSCODES_NAME', 'brickscodes' );
 define( 'BRICKSCODES_VERSION', '1.0.0' );
 
 // Plugin Root File
-define( 'BRICKSCODES_PLUGIN_FILE',	__FILE__ );
+define( 'BRICKSCODES_PLUGIN_FILE', __FILE__ );
 
 // Plugin base
-define( 'BRICKSCODES_PLUGIN_BASE',	plugin_basename( __FILE__ ) );
+define( 'BRICKSCODES_PLUGIN_BASE', plugin_basename( __FILE__ ) );
 
 // Plugin Folder Path
-define( 'BRICKSCODES_PLUGIN_DIR',	plugin_dir_path( __FILE__ ) );
+define( 'BRICKSCODES_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
 // Plugin Folder URL
-define( 'BRICKSCODES_PLUGIN_URL',	plugin_dir_url( __FILE__ ) );
+define( 'BRICKSCODES_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
 define( 'BRICKSCODES_ACF_PATH', BRICKSCODES_PLUGIN_DIR . 'includes/acf/advanced-custom-fields/' );
 define( 'BRICKSCODES_ACF_URL', BRICKSCODES_PLUGIN_URL . 'includes/acf/advanced-custom-fields/' );
