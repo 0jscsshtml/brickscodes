@@ -50,15 +50,11 @@ class Bc_Form_Submission extends \Bricks\Element {
 			if ( !empty($all_forms_ids) ) {
 				foreach($all_forms_ids as $form_id) {
 					$deleted_form = empty(\Bricks\Integrations\Form\Submission_Database::get_form_name_by_id( $form_id )) ? true : false;
-					$post_id = \Bricks\Integrations\Form\Submission_Database::get_post_id( $form_id );
-					$entries = \Bricks\Integrations\Form\Submission_Database::get_entries_count( $form_id );
-					if ( !$deleted_form ) {
-						$form_options[$form_id] = \Bricks\Integrations\Form\Submission_Database::get_form_name_by_id( $form_id );
-					}
+					$form_options[$form_id] = !$deleted_form ? \Bricks\Integrations\Form\Submission_Database::get_form_name_by_id( $form_id ) : $form_id . '(deleted)';
 				}
 			}		
 		}
-	
+
 		return $form_options;
 	}
 	
@@ -810,19 +806,32 @@ class Bc_Form_Submission extends \Bricks\Element {
 	
 	private function bc_map_replace_keys($formData, $form_setting, $excludes) {
 		foreach ($formData as $key => $value) {
-			foreach ($form_setting['fields'] as $field) {
-				if ( $field['id'] === $key ) {
-					unset($formData[$key]);
+			if ( !empty($form_setting) && isset($form_setting['fields']) ) {
+				foreach ($form_setting['fields'] as $field) {
+					if ( $field['id'] === $key ) {
+						unset($formData[$key]);
 
-					if ( !in_array($key, $excludes) ) {
-						$formData[$field['label']] = array(
+						if ( !in_array($key, $excludes) ) {
+							$formData[$field['label']] = array(
+								'id' => $key,
+								'type' => $field['type'],
+								'value' => $value
+							);
+						}
+						break; 
+					} 
+				}
+			} else {
+				if ( !in_array($key, ['PID', 'User', 'Created On' , 'Referrer']) ) {
+					unset($formData[$key]);
+					if ( is_array($value) && isset($value['type']) && !in_array($key, $excludes) ) {
+						$formData[$key] = array(
 							'id' => $key,
-							'type' => $field['type'],
+							'type' => $value['type'],
 							'value' => $value
 						);
 					}
-					break; 
-				} 
+				}
 			}
 		}
 
@@ -841,7 +850,6 @@ class Bc_Form_Submission extends \Bricks\Element {
 			$this->set_attribute( 'table', 'class', ['bc-table'] );	
 			$html .= '<div id="table-' . $formId . '" class="table-caption">' . $tableTitle . '</div>';
 			$html .= '<div class="table-wrapper"><table ' . $this->render_attributes( 'table' ) . '></div>';
-		//	$html .= '<caption id="table-' . $formId . '">' . $tableTitle . '</caption>';
 		} else {
 			$this->set_attribute( 'table', 'class', ['bc-advance-table', 'nowrap', 'stripe'] );
 			$exportRoles = $settings['grantUserExportRoles'] ?? [];
@@ -966,6 +974,7 @@ class Bc_Form_Submission extends \Bricks\Element {
 		$settingOptions 		= \Bricks\Database::$global_data['settings'];
 		$enableSaveSubmission	= isset($settingOptions['saveFormSubmissions']);
 		$formId 				= isset($settings['queryFormId']) ? sanitize_text_field($settings['queryFormId']) : false;
+		$formName 				= \Bricks\Integrations\Form\Submission_Database::get_form_name_by_id( $formId );
 		$granted_roles			= $settings['grantUserRoles'] ?? [];
 		$entries 				= isset($settings['limitEntries']) && intval($settings['limitEntries']) > 0 ? intval($settings['limitEntries']) : 50;
 		$excludes				= !empty($settings['excludeFormField']) ? $settings['excludeFormField'] : [];
@@ -984,7 +993,7 @@ class Bc_Form_Submission extends \Bricks\Element {
 		}
 		
 		if ( !$formId ) {
-			return $this->render_element_placeholder( [ 'title' => esc_html__( 'No form id provided.', 'brickscodes' ) ] );
+			return $this->render_element_placeholder( [ 'title' => esc_html__( 'No form selected.', 'brickscodes' ) ] );
 		}
 		
 		global $wpdb;
@@ -1098,8 +1107,7 @@ class Bc_Form_Submission extends \Bricks\Element {
 		
 		$newResults = [];
 		$form_settings = [];
-		$formName = \Bricks\Integrations\Form\Submission_Database::get_form_name_by_id( $formId );
-		$tableTitle	= !empty($settings['tableTitle']) ? sanitize_text_field($settings['tableTitle']) : $formName . ' Records';
+		$tableTitle = !empty($settings['tableTitle']) ? sanitize_text_field($settings['tableTitle']) : ($formName ? $formName . ' Records' : 'Deleted Form Records(' . $formId . ')' );
 		
 		if ($advanceTable && isset($settings['advanceTableResponsive']) && !empty($this->datatables_modal_controls)) {
 			$desktop_css = [];
@@ -1138,14 +1146,14 @@ class Bc_Form_Submission extends \Bricks\Element {
 		foreach( $results as $result ) {
 			$form_settings[] = \Bricks\Integrations\Form\Submission_Database::get_form_settings( $post_id = $result['post_id'], $form_id = $result['form_id'], $global_id = 0 );
 		}
-		
+	
 		foreach( $results as $index => $result ) {
 			$formData = $result['form_data'];
 			$formDataArray = json_decode($formData, true); 			
 			$formDataArray['PID'] = $result['id'];
 			$formDataArray['User'] = $result['user_id'];
 			$formDataArray['Created On'] = $result['created_at'];
-			$formDataArray['Referrer'] = $result['referrer'];
+			$formDataArray['Referrer'] = $result['referrer'];		
 			$newResults[] = $this->bc_map_replace_keys($formDataArray, $form_settings[$index], $excludes);
 		}
 			
