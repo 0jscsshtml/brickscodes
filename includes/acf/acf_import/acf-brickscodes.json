@@ -1,0 +1,1368 @@
+[
+    {
+        "key": "group_669fd45b59c35",
+        "title": "Brickscodes Settings",
+        "fields": [
+            {
+                "key": "field_66a0e0e8d2950",
+                "label": "Builder Tweaks",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0,
+                "selected": 0
+            },
+            {
+                "key": "field_669fd45b6f7fc",
+                "label": "Builder Tweaks",
+                "name": "bc_builder_tweaks",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "94",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_66a0de111416b",
+                        "label": "New Elements Shortcut Bar",
+                        "name": "bc_structure_panel_shortcut",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "New Element Shortcut Bar At Structure Panel",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "bc_checkbox",
+                            "id": ""
+                        },
+                        "message": ".",
+                        "default_value": 0,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_66ff75947008a",
+                        "label": "Expand\/Collapse All Childrens",
+                        "name": "bc_expand_collapse_children",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "Expand\/Collapse all children of current active element at Structure Panel Action Shortcut Bar",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "bc_checkbox",
+                            "id": ""
+                        },
+                        "message": ".",
+                        "default_value": 0,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_66aa030c0b1ee",
+                        "label": "Show\/Hide Elements",
+                        "name": "bc_show_hide_elements",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "Apply Global Class 'bc-hide-in-canvas to Element to hide Element in Canvas. Apply Global Class 'bc-hide-in-frontend to Element to stop render in frontend but sill editable in Builder.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "bc_checkbox",
+                            "id": ""
+                        },
+                        "message": ".",
+                        "default_value": 0,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_671067d741aa3",
+                        "label": "Preview Global Class & Variables",
+                        "name": "bc_preview_class_variables",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "Preview Global Class and Css Variables on hover",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "bc_checkbox",
+                            "id": ""
+                        },
+                        "message": ".",
+                        "default_value": 0,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_669fd5886f7fe",
+                        "label": "Compact Element Categories",
+                        "name": "bc_slim_left_panel",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "Streamlined Element Categories and added an Expand\/Collapse toggle for all Element Category groups",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "bc_checkbox",
+                            "id": ""
+                        },
+                        "message": ".",
+                        "default_value": 0,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_66a9d4b86cf42",
+                        "label": "Query Manager",
+                        "name": "bc_query_manager",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "Manage Elements query settings. Save Element query settings to Query Manager, Select query settings from Query Manager and apply to Element. Edit and update query setting in Query Manager update all Elements with same query id across entire site.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "bc_checkbox",
+                            "id": ""
+                        },
+                        "message": ".",
+                        "default_value": 0,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_66a2e12a87754",
+                        "label": "Preloader Background Color",
+                        "name": "bc_preloader_background",
+                        "aria-label": "",
+                        "type": "color_picker",
+                        "instructions": "Change Builder preloader background color.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "bc_color",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "enable_opacity": 0,
+                        "return_format": "string",
+                        "allow_in_bindings": 1
+                    },
+                    {
+                        "key": "field_66a282e3a8f9e",
+                        "label": "Saved Message",
+                        "name": "bc_save_message",
+                        "aria-label": "",
+                        "type": "textarea",
+                        "instructions": "Replace Builder save message. Each message separate with new line.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "bc_textarea",
+                            "id": ""
+                        },
+                        "default_value": "Done",
+                        "maxlength": "",
+                        "allow_in_bindings": 1,
+                        "rows": 4,
+                        "placeholder": "",
+                        "new_lines": ""
+                    },
+                    {
+                        "key": "field_66a2ece363adc",
+                        "label": "Disable Elements - Template Header",
+                        "name": "bc_disable_elements_header",
+                        "aria-label": "",
+                        "type": "select",
+                        "instructions": "Disable Elements on Template Header",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "bc_select",
+                            "id": ""
+                        },
+                        "choices": {
+                            "null": "- Select",
+                            "accordion": "Accordion",
+                            "accordion-nested": "Accordion-Nested",
+                            "alert": "Alert",
+                            "animated-typing": "Animated-Typing",
+                            "audio": "Audio",
+                            "breadcrumbs": "Breadcrumbs",
+                            "button": "Button",
+                            "carousel": "Carousel",
+                            "code": "Code",
+                            "countdown": "Countdown",
+                            "counter": "Counter",
+                            "divider": "Divider",
+                            "dropdown": "Dropdown",
+                            "facebook-page": "Facebook-Page",
+                            "filter-checkbox": "Filter-Checkbox",
+                            "filter-datepicker": "Filter-Datepicker",
+                            "filter-radio": "Filter-Radio",
+                            "filter-range": "Filter-Range",
+                            "filter-search": "Filter-Search",
+                            "filter-select": "Filter-Select",
+                            "filter-submit": "Filter-Submit",
+                            "form": "Form",
+                            "heading": "Heading",
+                            "icon": "Icon",
+                            "icon-box": "Icon-Box",
+                            "image": "Image",
+                            "image-gallery": "Image-Gallery",
+                            "instagram-feed": "Instagram-Feed",
+                            "list": "List",
+                            "logo": "Logo",
+                            "map": "Map",
+                            "nav-menu": "Nav-Menu",
+                            "nav-nested": "Nav-Nested",
+                            "offcanvas": "Offcanvas",
+                            "pagination": "Pagination",
+                            "pie-chart": "Pie-Chart",
+                            "post-author": "Post-Author",
+                            "post-comments": "Post-Comments",
+                            "post-content": "Post-Content",
+                            "post-excerpt": "Post-Excerpt",
+                            "post-meta": "Post-Meta",
+                            "post-navigation": "Post-Navigation",
+                            "post-reading-progress-bar": "Post-Reading-Progress-Bar",
+                            "post-reading-time": "Post-Reading-Time",
+                            "posts": "Posts",
+                            "post-sharing": "Post-Sharing",
+                            "post-taxonomy": "Post-Taxonomy",
+                            "post-title": "Post-Title",
+                            "post-toc": "Post-Toc",
+                            "pricing-tables": "Pricing-Tables",
+                            "progress-bar": "Progress-Bar",
+                            "related-posts": "Related-Posts",
+                            "search": "Search",
+                            "shortcode": "Shortcode",
+                            "sidebar": "Sidebar",
+                            "slider": "Slider",
+                            "slider-nested": "Slider-Nested",
+                            "social-icons": "Social-Icons",
+                            "svg": "Svg",
+                            "tabs": "Tabs",
+                            "tabs-nested": "Tabs-Nested",
+                            "team-members": "Team-Members",
+                            "template": "Template",
+                            "testimonials": "Testimonials",
+                            "text": "Text",
+                            "text-basic": "Text-Basic",
+                            "text-link": "Text-Link",
+                            "toggle": "Toggle",
+                            "video": "Video",
+                            "wordpress": "Wordpress"
+                        },
+                        "default_value": [],
+                        "return_format": "value",
+                        "multiple": 1,
+                        "allow_null": 1,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ajax": 0,
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_66a2fe9691fa8",
+                        "label": "Disable Elements - Template Content",
+                        "name": "bc_disable_elements_content",
+                        "aria-label": "",
+                        "type": "select",
+                        "instructions": "Disable Elements on Template Popup\/Section\/Single\/Archive\/Error\/Search.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "bc_select",
+                            "id": ""
+                        },
+                        "choices": {
+                            "null": "- Select",
+                            "accordion": "Accordion",
+                            "accordion-nested": "Accordion-Nested",
+                            "alert": "Alert",
+                            "animated-typing": "Animated-Typing",
+                            "audio": "Audio",
+                            "breadcrumbs": "Breadcrumbs",
+                            "button": "Button",
+                            "carousel": "Carousel",
+                            "code": "Code",
+                            "countdown": "Countdown",
+                            "counter": "Counter",
+                            "divider": "Divider",
+                            "dropdown": "Dropdown",
+                            "facebook-page": "Facebook-Page",
+                            "filter-checkbox": "Filter-Checkbox",
+                            "filter-datepicker": "Filter-Datepicker",
+                            "filter-radio": "Filter-Radio",
+                            "filter-range": "Filter-Range",
+                            "filter-search": "Filter-Search",
+                            "filter-select": "Filter-Select",
+                            "filter-submit": "Filter-Submit",
+                            "form": "Form",
+                            "heading": "Heading",
+                            "icon": "Icon",
+                            "icon-box": "Icon-Box",
+                            "image": "Image",
+                            "image-gallery": "Image-Gallery",
+                            "instagram-feed": "Instagram-Feed",
+                            "list": "List",
+                            "logo": "Logo",
+                            "map": "Map",
+                            "nav-menu": "Nav-Menu",
+                            "nav-nested": "Nav-Nested",
+                            "offcanvas": "Offcanvas",
+                            "pagination": "Pagination",
+                            "pie-chart": "Pie-Chart",
+                            "post-author": "Post-Author",
+                            "post-comments": "Post-Comments",
+                            "post-content": "Post-Content",
+                            "post-excerpt": "Post-Excerpt",
+                            "post-meta": "Post-Meta",
+                            "post-navigation": "Post-Navigation",
+                            "post-reading-progress-bar": "Post-Reading-Progress-Bar",
+                            "post-reading-time": "Post-Reading-Time",
+                            "posts": "Posts",
+                            "post-sharing": "Post-Sharing",
+                            "post-taxonomy": "Post-Taxonomy",
+                            "post-title": "Post-Title",
+                            "post-toc": "Post-Toc",
+                            "pricing-tables": "Pricing-Tables",
+                            "progress-bar": "Progress-Bar",
+                            "related-posts": "Related-Posts",
+                            "search": "Search",
+                            "shortcode": "Shortcode",
+                            "sidebar": "Sidebar",
+                            "slider": "Slider",
+                            "slider-nested": "Slider-Nested",
+                            "social-icons": "Social-Icons",
+                            "svg": "Svg",
+                            "tabs": "Tabs",
+                            "tabs-nested": "Tabs-Nested",
+                            "team-members": "Team-Members",
+                            "template": "Template",
+                            "testimonials": "Testimonials",
+                            "text": "Text",
+                            "text-basic": "Text-Basic",
+                            "text-link": "Text-Link",
+                            "toggle": "Toggle",
+                            "video": "Video",
+                            "wordpress": "Wordpress"
+                        },
+                        "default_value": [],
+                        "return_format": "value",
+                        "multiple": 1,
+                        "allow_null": 1,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ajax": 0,
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_66a2fea691fa9",
+                        "label": "Disable Elements - Template Footer",
+                        "name": "bc_disable_elements_footer",
+                        "aria-label": "",
+                        "type": "select",
+                        "instructions": "Disable Elements on Template Footer",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "bc_select",
+                            "id": ""
+                        },
+                        "choices": {
+                            "null": "- Select",
+                            "accordion": "Accordion",
+                            "accordion-nested": "Accordion-Nested",
+                            "alert": "Alert",
+                            "animated-typing": "Animated-Typing",
+                            "audio": "Audio",
+                            "breadcrumbs": "Breadcrumbs",
+                            "button": "Button",
+                            "carousel": "Carousel",
+                            "code": "Code",
+                            "countdown": "Countdown",
+                            "counter": "Counter",
+                            "divider": "Divider",
+                            "dropdown": "Dropdown",
+                            "facebook-page": "Facebook-Page",
+                            "filter-checkbox": "Filter-Checkbox",
+                            "filter-datepicker": "Filter-Datepicker",
+                            "filter-radio": "Filter-Radio",
+                            "filter-range": "Filter-Range",
+                            "filter-search": "Filter-Search",
+                            "filter-select": "Filter-Select",
+                            "filter-submit": "Filter-Submit",
+                            "form": "Form",
+                            "heading": "Heading",
+                            "icon": "Icon",
+                            "icon-box": "Icon-Box",
+                            "image": "Image",
+                            "image-gallery": "Image-Gallery",
+                            "instagram-feed": "Instagram-Feed",
+                            "list": "List",
+                            "logo": "Logo",
+                            "map": "Map",
+                            "nav-menu": "Nav-Menu",
+                            "nav-nested": "Nav-Nested",
+                            "offcanvas": "Offcanvas",
+                            "pagination": "Pagination",
+                            "pie-chart": "Pie-Chart",
+                            "post-author": "Post-Author",
+                            "post-comments": "Post-Comments",
+                            "post-content": "Post-Content",
+                            "post-excerpt": "Post-Excerpt",
+                            "post-meta": "Post-Meta",
+                            "post-navigation": "Post-Navigation",
+                            "post-reading-progress-bar": "Post-Reading-Progress-Bar",
+                            "post-reading-time": "Post-Reading-Time",
+                            "posts": "Posts",
+                            "post-sharing": "Post-Sharing",
+                            "post-taxonomy": "Post-Taxonomy",
+                            "post-title": "Post-Title",
+                            "post-toc": "Post-Toc",
+                            "pricing-tables": "Pricing-Tables",
+                            "progress-bar": "Progress-Bar",
+                            "related-posts": "Related-Posts",
+                            "search": "Search",
+                            "shortcode": "Shortcode",
+                            "sidebar": "Sidebar",
+                            "slider": "Slider",
+                            "slider-nested": "Slider-Nested",
+                            "social-icons": "Social-Icons",
+                            "svg": "Svg",
+                            "tabs": "Tabs",
+                            "tabs-nested": "Tabs-Nested",
+                            "team-members": "Team-Members",
+                            "template": "Template",
+                            "testimonials": "Testimonials",
+                            "text": "Text",
+                            "text-basic": "Text-Basic",
+                            "text-link": "Text-Link",
+                            "toggle": "Toggle",
+                            "video": "Video",
+                            "wordpress": "Wordpress"
+                        },
+                        "default_value": [],
+                        "return_format": "value",
+                        "multiple": 1,
+                        "allow_null": 1,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ajax": 0,
+                        "placeholder": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_66b35f4827c68",
+                "label": "Conditions",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0,
+                "selected": 0
+            },
+            {
+                "key": "field_66b35f5e27c69",
+                "label": "Custom Conditions",
+                "name": "bc_custom_conditions",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "94",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_66b35f5e27c6a",
+                        "label": "Custom Fields Template Conditions",
+                        "name": "bc_acf_template_conditions",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "Additional Custom Field Condition Check in Template Conditions: Allows multiple Header, Footer, Archive, or Single templates to be applied to the same post type, while the active template controlled by specific Custom Field values.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "bc_checkbox",
+                            "id": ""
+                        },
+                        "message": ".",
+                        "default_value": 0,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_66a10dfbb2d6e",
+                "label": "Dynamic Tags",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0,
+                "selected": 0
+            },
+            {
+                "key": "field_66a10e17b2d6f",
+                "label": "Custom Dynamic Tags",
+                "name": "bc_custom_dynamic_tags",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "94",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_66a10e17b2d70",
+                        "label": "User Ip Address",
+                        "name": "bc_user_ip",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "{bc_user_ip}",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "20",
+                            "class": "bc_checkbox",
+                            "id": ""
+                        },
+                        "message": ".",
+                        "default_value": 0,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_66d698d864f3c",
+                        "label": "User Last Login",
+                        "name": "bc_user_last_login",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "{bc_user_last_login}, {bc_user_last_login:30} argument for human_time_diff format",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "20",
+                            "class": "bc_checkbox",
+                            "id": ""
+                        },
+                        "message": ".",
+                        "default_value": 0,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_66d9a77c630f6",
+                        "label": "User Registered Date",
+                        "name": "bc_user_register_date",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "{bc_user_register_date}",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "20",
+                            "class": "bc_checkbox",
+                            "id": ""
+                        },
+                        "message": ".",
+                        "default_value": 0,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_66d15bb58bbb2",
+                        "label": "Post Type Taxonomies Terms",
+                        "name": "bc_post_type_taxonomy_terms",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "Return Term Id and Name for Checkbox\/Radio Options. Accept 2 arguments, post_type_slug and taxonomy_slug {bc_post_type_taxonomy_terms:post_type_slug:taxonomy_slug}",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "20",
+                            "class": "bc_checkbox",
+                            "id": ""
+                        },
+                        "message": ".",
+                        "default_value": 0,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_6704926f04b2b",
+                "label": "Classes & Variables",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0,
+                "selected": 0
+            },
+            {
+                "key": "field_6704929404b2c",
+                "label": "Global Classses & Variables",
+                "name": "bc_classes_variables",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "94",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_6704929404b2d",
+                        "label": "Core Framework Integration",
+                        "name": "bc_core_integration",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "Integrate Core Framework Free into Builder. All Core Framework Classes, Variables and Color Palette are available in Builder and equipped with preview on hover.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "bc_checkbox",
+                            "id": ""
+                        },
+                        "message": ".",
+                        "default_value": 0,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_6704929404b2e",
+                        "label": "Dark Mode Toggle",
+                        "name": "bc_core_theme_toggle",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "Core Framework Light\/Dark Mode Toggle In Builder. Preview In Canvas.",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_6704929404b2d",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "25",
+                            "class": "bc_checkbox",
+                            "id": ""
+                        },
+                        "message": ".",
+                        "default_value": 0,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_670a7b1772307",
+                        "label": "Auto Import Variables (planned)",
+                        "name": "bc_auto_import_variables",
+                        "aria-label": "",
+                        "type": "file",
+                        "instructions": "Upload your stylesheet, let Brickscodes auto import Css Variables and Classes.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "bc_file",
+                            "id": ""
+                        },
+                        "return_format": "array",
+                        "library": "all",
+                        "min_size": "",
+                        "max_size": "",
+                        "mime_types": ".css",
+                        "allow_in_bindings": 0
+                    }
+                ]
+            },
+            {
+                "key": "field_66a10f31af6ac",
+                "label": "Custom Elements",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0,
+                "selected": 0
+            },
+            {
+                "key": "field_66a10f4aaf6ad",
+                "label": "Unique Custom Elements",
+                "name": "bc_custom_elements",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "94",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_66a10f4aaf6ae",
+                        "label": "3D Model Viewer",
+                        "name": "bc_model_viewer",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "Support glb\/gltf format model",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "bc_checkbox",
+                            "id": ""
+                        },
+                        "message": ".",
+                        "default_value": 0,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_67270b2cd7e8b",
+                        "label": "Copy to Clipboard Button",
+                        "name": "bc_copy_clipboard",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "Copy static\/dynamic text content, copy Element Json in Frontend and paste as usual in Builder, export Template Json in Frontend, copy text content by element class\/id.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "bc_checkbox",
+                            "id": ""
+                        },
+                        "message": ".",
+                        "default_value": 0,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_66d17beaf0f1b",
+                        "label": "View Form Submission in Frontend",
+                        "name": "bc_form_submission",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "Query Form Submission and View in Frontend. Exclude any selected form field from query. User role control.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "bc_checkbox",
+                            "id": ""
+                        },
+                        "message": ".",
+                        "default_value": 0,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_671c686768c85",
+                        "label": "WS Form Styler (planned)",
+                        "name": "bc_wsform_styler",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "Render and style WS Form in Builder.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "bc_checkbox",
+                            "id": ""
+                        },
+                        "message": ".",
+                        "default_value": 0,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_66a1a31c9b922",
+                "label": "Native Elements Plus",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0,
+                "selected": 0
+            },
+            {
+                "key": "field_66a1a33d9b923",
+                "label": "Enhance Native Bricks Elements",
+                "name": "bc_native_bricks_elements_plus",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "94",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_66a1a33d9b924",
+                        "label": "Slider Nested",
+                        "name": "bc_slider_nested_plus",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "Splide features such as Url Hash Navigation, Auto Scroll, Intersection, Sync Sliders. Extra Fraction\/Number Pagination, Autoplay Progress Bar, Slides Progress Bar, Play\/Pause Button, etc...",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "bc_checkbox",
+                            "id": ""
+                        },
+                        "message": ".",
+                        "default_value": 0,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_66b4c258486a2",
+                        "label": "Form (planned)",
+                        "name": "bc_form_plus",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "Frontend Update User Meta(ACF), Frontend Create Post(ACF), Custom user Registration with ACF Fields, Email Validation Before Account Created, Password Match Validation, Password Minimum Requirement Validation, Password Reveal\/Hide Icon Toggle, Honeypot Validation, Email Domain Blacklist Validation, More Flatpickr Controls, Webhooks Support HTTP Method POST\/GET; Post Data as FormData\/Json\/Query String, Signature Pad, File Upload Preview, Form Submit Confirmation, Form Retain Data After Submission, Form Abandonment, Textarea Field MaxLength, Textarea as Tinymce in Frontend",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "bc_checkbox",
+                            "id": ""
+                        },
+                        "message": ".",
+                        "default_value": 0,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_66ec122214ab7",
+                "label": "API\/Secret Key",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_66b4c258486a2",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0,
+                "selected": 0
+            },
+            {
+                "key": "field_66ec124e14ab8",
+                "label": "API Secret Key",
+                "name": "bc_brickscode_api_secret_key",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_66b4c258486a2",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_66ec124e14ab9",
+                        "label": "Webhook HMAC Secret Key",
+                        "name": "bc_webhook_hmac_secret_key",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "Use to generate webhook HMAC",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_66b4c258486a2",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "100",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "allow_in_bindings": 0,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
+                    },
+                    {
+                        "key": "field_66ec20c2cc05d",
+                        "label": "Email Validation Activation Link Secret Key",
+                        "name": "bc_email_validation_secret_key",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "Use to generate verification link for email address",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_66b4c258486a2",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "100",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "allow_in_bindings": 0,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_6730c5b94bb6a",
+                "label": "Wordpress",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0,
+                "selected": 0
+            },
+            {
+                "key": "field_6730c5db4bb6b",
+                "label": "Wordpress",
+                "name": "bc_wordpress_group",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_6730c6514bb74",
+                        "label": "Current User Media Access Control",
+                        "name": "bc_media_access_control",
+                        "aria-label": "",
+                        "type": "true_false",
+                        "instructions": "Ensures that users can only view, edit, and delete their own uploaded media files, not those uploaded by others.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "bc_checkbox",
+                            "id": ""
+                        },
+                        "message": ".",
+                        "default_value": 0,
+                        "allow_in_bindings": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_6715b009fba83",
+                "label": "Information",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0,
+                "selected": 0
+            },
+            {
+                "key": "field_6715b01ffba84",
+                "label": "Plugin Information",
+                "name": "bc_information",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_6715b042fba87",
+                        "label": "Options Page",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "accordion",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "open": 0,
+                        "multi_expand": 0,
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_6715b116c6b88",
+                        "label": "",
+                        "name": "bc_info_options",
+                        "aria-label": "",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "bc-info",
+                            "id": ""
+                        },
+                        "default_value": "This plugin comes bundled with ACF Free for creating and managing Brickscodes settings. If ACF or ACF Pro is detected, the plugin will automatically use your existing version.",
+                        "maxlength": "",
+                        "allow_in_bindings": 1,
+                        "rows": 3,
+                        "placeholder": "",
+                        "new_lines": ""
+                    },
+                    {
+                        "key": "field_6715b2cfe2f19",
+                        "label": "Core Framework Integration",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "accordion",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "open": 0,
+                        "multi_expand": 0,
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_6715b2ebe2f1a",
+                        "label": "",
+                        "name": "bc_info_core_framework",
+                        "aria-label": "",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "bc-info",
+                            "id": ""
+                        },
+                        "default_value": "When enabled, Brickscodes will automatically sync with Core Framework Free. It will import all plain Core Framework classes into the Builder, and all available variables will be presented in a separate modal for easy selection.",
+                        "maxlength": "",
+                        "allow_in_bindings": 1,
+                        "rows": 3,
+                        "placeholder": "",
+                        "new_lines": ""
+                    },
+                    {
+                        "key": "field_6715bf76457d7",
+                        "label": "Impact of Plugin Deactivation\/Uninstallation",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "accordion",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "open": 0,
+                        "multi_expand": 0,
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_6715bfc4457d8",
+                        "label": "",
+                        "name": "bc_info_uninstall",
+                        "aria-label": "",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "bc-info",
+                            "id": ""
+                        },
+                        "default_value": "Query Manager: All Elements query set by Query Manager will continue to work and handled by Bricks. \r\n\r\nCore Framework Integration: If you choose \"proceed and delete all\", all Core Framework Classes and Variables will be deleted. If you choose \"proceed and keep\", all Core Framework Classes and Variables will still be available in the Builder, but they will no longer automatically sync with Core. Follow instruction on deactivation.\r\n\r\nThe rest will revert back to as Bricks default.",
+                        "maxlength": "",
+                        "allow_in_bindings": 1,
+                        "rows": 8,
+                        "placeholder": "",
+                        "new_lines": ""
+                    },
+                    {
+                        "key": "field_6715bab01d1fc",
+                        "label": "Reference",
+                        "name": "",
+                        "aria-label": "",
+                        "type": "accordion",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "open": 0,
+                        "multi_expand": 0,
+                        "endpoint": 0
+                    },
+                    {
+                        "key": "field_6715badf1d1fe",
+                        "label": "",
+                        "name": "bc_info_reference",
+                        "aria-label": "",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "bc-info",
+                            "id": ""
+                        },
+                        "default_value": "Bricks: https:\/\/academy.bricksbuilder.io\/collection\/developer\/\r\n\r\nSplide: https:\/\/splidejs.com\/guides\/extension\/\r\n\r\nACF Free: https:\/\/www.advancedcustomfields.com\/resources\/\r\n\r\nCore Framework: https:\/\/docs.coreframework.com\/development\/coreframework-helper\r\n\r\nModel Viewer: https:\/\/modelviewer.dev\/docs\/index.html\r\n\r\nDataTables: https:\/\/datatables.net\/manual\/\r\n\r\nWS Form: https:\/\/wsform.com\/knowledgebase_category\/styling-css\/\r\n\r\nCurrent User Media Access Control: https:\/\/gist.github.com\/Qubadi\/07e71872af75d96f8f811306295dafee",
+                        "maxlength": "",
+                        "allow_in_bindings": 1,
+                        "rows": 12,
+                        "placeholder": "",
+                        "new_lines": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "11500"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "the_content",
+            "excerpt",
+            "discussion",
+            "comments",
+            "format",
+            "page_attributes",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ],
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]
