@@ -182,10 +182,12 @@ class Brickscodes_Ajax {
 		}
 
 		$template_id = isset($_POST['id']) ? $_POST['id'] : 0;
+		$template_data = \Bricks\Templates::get_template_by_id( $template_id );
 		
-		if (empty($template_id)) {
-			wp_send_json_error(['message' => 'export_template:error: no templateId provided']);
+		if (empty($template_id || $template_data === false)) {
+			wp_send_json_error(['message' => 'export_template:error: Template not found. ']);
 		}
+		
 		Brickscodes_Helpers::bc_export_template($template_id);
 	}
 	
