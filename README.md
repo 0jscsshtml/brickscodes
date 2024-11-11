@@ -1,6 +1,13 @@
 # Brickscodes
 Elevate your Bricks Builder experience with this powerful plugin designed to seamlessly integrate with Bricks. Packed with custom elements, editor enhancements, custom conditions, custom dynamic tags, native elements enhancements, etc. This plugin extends the functionality of Bricks while adhering to WordPress best practices.
 
+## Installation
+* Download brickscodes.zip from Releases.
+* From your WordPress dashboard, choose Plugins > Add New.
+* Click Upload Plugin at the top of the page.
+* Click Choose File, locate the plugin .zip file, then click Install Now.
+* After the installation is complete, click Activate Plugin.
+
 ## Builder Tweaks
 ###### Compact Left Panel
 * Expand/Collapse element category groups.
