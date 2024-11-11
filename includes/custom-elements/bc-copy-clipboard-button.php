@@ -313,22 +313,24 @@ class Bc_Copy_Clipboard_Button extends \Bricks\Element {
 	}
 	
 	public function render() {
-		$settings = $this->settings;
-		$copyText	= !empty($settings['copyClipboardtext']) ? $settings['copyClipboardtext'] : 'Copy';
-		$copiedText	= !empty($settings['copiedClipboardtext']) ? $settings['copiedClipboardtext'] : 'Copied';
-		$copyTitle	= !empty($settings['copyTitleAttribute']) ? $settings['copyTitleAttribute'] : 'Copy to clipboard';
-		$copiedTitle = !empty($settings['copiedTitleAttribute']) ? $settings['copiedTitleAttribute'] : 'Content succssfully copied to clipboard.';
-		$iconPost	= isset($settings['copyClipboardIconPosition']) ? $settings['copyClipboardIconPosition'] : 'right';
-		$beforeIcon	= !empty($settings['copyIcon']) ? \Bricks\Helpers::file_get_contents(get_attached_file($settings['copyIcon']['id'])) : '';
-		$afterIcon	= !empty($settings['copiedIcon']) ? \Bricks\Helpers::file_get_contents(get_attached_file($settings['copiedIcon']['id'])) : '';
+		$settings 			= $this->settings;
+		$sourceType			= isset($settings['copyClipboardSource']) ? $settings['copyClipboardSource'] : false;
+		$copyText			= !empty($settings['copyClipboardtext']) ? $settings['copyClipboardtext'] : 'Copy';
+		$copiedText			= !empty($settings['copiedClipboardtext']) ? $settings['copiedClipboardtext'] : 'Copied';
+		$copyTitle			= !empty($settings['copyTitleAttribute']) ? $settings['copyTitleAttribute'] : 'Copy to clipboard';
+		$copiedTitle	 	= !empty($settings['copiedTitleAttribute']) ? $settings['copiedTitleAttribute'] : 'Content succssfully copied to clipboard.';
+		$iconPost			= isset($settings['copyClipboardIconPosition']) ? $settings['copyClipboardIconPosition'] : 'right';
+		$beforeIcon			= !empty($settings['copyIcon']) ? \Bricks\Helpers::file_get_contents(get_attached_file($settings['copyIcon']['id'])) : '';
+		$afterIcon			= !empty($settings['copiedIcon']) ? \Bricks\Helpers::file_get_contents(get_attached_file($settings['copiedIcon']['id'])) : '';
 		if ($afterIcon) {
 			$afterIcon = preg_replace('/<svg([^>]*)>/i', '<svg$1 style="display:none;">', $afterIcon);
 		}
-		$selector	= !empty($settings['copyClipboardSourceSelector']) ? $settings['copyClipboardSourceSelector'] : '';
-		$excludeTags = !empty($settings['copyClipboardSourceTags']) ? $settings['copyClipboardSourceTags'] : '';
-		$elementId	= !empty($settings['copyClipboardElementId']) ? $settings['copyClipboardElementId'] : '';
-		$elementObj = !empty($settings['copyClipboardElementJson']) ? $settings['copyClipboardElementJson'] : '';
-		$resetDelay = !empty($settings['copyClipboardStateResetDelay']) ? intval($settings['copyClipboardStateResetDelay']) : 5;
+		$dynamic_content 	= $sourceType && $sourceType === 'dynamic-content' && !empty($settings['copyClipboardSourceDynamic']) ? $settings['copyClipboardSourceDynamic'] : '';
+		$selector_content	= $sourceType && $sourceType === 'element-content' && !empty($settings['copyClipboardSourceSelector']) ? $settings['copyClipboardSourceSelector'] : '';
+		$excludeTags 		= !empty($selector_content) && !empty($settings['copyClipboardSourceTags']) ? $settings['copyClipboardSourceTags'] : '';
+		$elementId			= $sourceType && $sourceType === 'element-json' && !empty($settings['copyClipboardElementId']) ? $settings['copyClipboardElementId'] : '';
+		$elementObj 		= !empty($elementId) && !empty($settings['copyClipboardElementJson']) ? $settings['copyClipboardElementJson'] : '';
+		$resetDelay 		= !empty($settings['copyClipboardStateResetDelay']) ? intval($settings['copyClipboardStateResetDelay']) : 5;
 		
 		$this->set_attribute( '_root', 'title', $copyTitle );
 		$this->set_attribute( '_root', 'data-copy-text', $copyText );
@@ -336,23 +338,24 @@ class Bc_Copy_Clipboard_Button extends \Bricks\Element {
 		$this->set_attribute( '_root', 'data-copy-title', $copyTitle );
 		$this->set_attribute( '_root', 'data-copied-title', $copiedTitle );
 		$this->set_attribute( '_root', 'class', ['bricks-button'] );
-		if ( !is_user_logged_in() && in_array($settings['copyClipboardSource'], ['element-json', 'template-json']) ) {
+		
+		if ( !is_user_logged_in() && $sourceType && in_array($sourceType, ['element-json', 'template-json']) ) {
 			$this->set_attribute( '_root', 'disabled', 'disabled');
 		}
 
-		if ( isset($settings['copyClipboardSource']) ) {
-			if ( $settings['copyClipboardSource'] === 'dynamic-content' && !empty($settings['copyClipboardSourceDynamic']) ) {
-				$this->set_attribute( '_root', 'data-copy-content', bricks_render_dynamic_data($settings['copyClipboardSourceDynamic']) );
-			} else if ( $settings['copyClipboardSource'] === 'element-content' && !empty($selector) ) {
-				$this->set_attribute( '_root', 'data-selector-content', $selector);
+		if ( $sourceType ) {
+			if ( $sourceType === 'dynamic-content' ) {
+				$this->set_attribute( '_root', 'data-copy-content', bricks_render_dynamic_data($dynamic_content) );
+			} else if ( $sourceType === 'element-content' ) {
+				$this->set_attribute( '_root', 'data-selector-content', $selector_content);
 				if ( !empty($excludeTags) ) {
 					$this->set_attribute( '_root', 'data-exclude-tags', $excludeTags);
 				}
 			} 
 			
-			else if ( is_user_logged_in() && $settings['copyClipboardSource'] === 'element-json' && !empty($elementId) && !empty($elementObj) ) {
+			else if ( is_user_logged_in() && $sourceType === 'element-json' ) {
 				$this->set_attribute( '_root', 'data-element-content', $elementObj);
-			} else if ( is_user_logged_in() && $settings['copyClipboardSource'] === 'template-json' && isset($settings['copyClipboardTemplateId']) ) {
+			} else if ( is_user_logged_in() && $sourceType === 'template-json' && isset($settings['copyClipboardTemplateId']) ) {
 				$this->set_attribute( '_root', 'data-template-id', intval($settings['copyClipboardTemplateId']));
 			}
 			
