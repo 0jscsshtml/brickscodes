@@ -84,3 +84,6 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 
 #### View Form Submission In Frontend
 ![Form Submission](https://github.com/user-attachments/assets/4b48b9e4-d141-41c6-94fd-8d6b31f0b7f6)
+
+#### 3D Model Viewer
+![3d Model Viewer](https://github.com/user-attachments/assets/899fb964-bfb9-4169-8871-a6cffe4720a6)
