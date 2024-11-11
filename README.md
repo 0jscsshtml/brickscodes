@@ -87,3 +87,6 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 
 #### 3D Model Viewer
 ![3d Model Viewer](https://github.com/user-attachments/assets/899fb964-bfb9-4169-8871-a6cffe4720a6)
+
+#### Copy to Clipboard Button
+![Copy to Clipboard Button](https://github.com/user-attachments/assets/feddfa15-ba96-4e7f-bc83-9c8c5fef4b6c)
