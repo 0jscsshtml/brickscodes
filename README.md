@@ -7,6 +7,7 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Click Upload Plugin at the top of the page.
 * Click Choose File, locate the plugin .zip file, then click Install Now.
 * After the installation is complete, click Activate Plugin.
+* Any new update release, you will get the same automatic update notice from your plugin dashboard.
 
 ## Builder Tweaks
 ###### Compact Left Panel
