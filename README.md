@@ -90,3 +90,6 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 
 #### Copy to Clipboard Button
 ![Copy to Clipboard Button](https://github.com/user-attachments/assets/feddfa15-ba96-4e7f-bc83-9c8c5fef4b6c)
+
+#### Plugin Update
+![Update](https://github.com/user-attachments/assets/e2472580-4da5-4cac-91ab-8985a13fb989)
