@@ -3,11 +3,11 @@
 	"slug" : "brickscodes",
 	"author" : "<a href='https://github.com/0jscsshtml/brickscodes'>Eric Chong</a>",
 	"author_profile" : "https://github.com/0jscsshtml/brickscodes",
-	"version" : "1.0.1",
+	"version" : "1.0.0",
 	"download_url" : "https://github.com/0jscsshtml/brickscodes/releases/download/v1.0.1/brickscodes.zip",
 	"requires" : "6.0",
 	"tested" : "6.7",
-	"theme_tested": "1.10.3",
+	"theme_tested": "1.11.1",
 	"requires_php" : "7.4",
 	"last_updated" : "2024-11-13 02:10:00",
 	"sections" : {
