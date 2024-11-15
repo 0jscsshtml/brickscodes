@@ -52,6 +52,8 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Separate modal for Core Framework Variables.
 * When deactivate plugin, you may choose to keep Core Framework.
 * Core Framework dark/light mode toggle in Builder.
+###### Custom Framework Integration
+* Upload your custom framework stylesheet, let Brickscodes automatically import Classes and Variables in to Builder and enqueue stylesheet in Canvas and Frontend
 ## Custom Elements
 ###### 3D Model Viewer
 * Support glb/gltf, model animation, lazy load, camera control, etc.
@@ -82,6 +84,9 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 
 #### Core Framework Free Integration
 ![Core Framework](https://github.com/user-attachments/assets/63ef2fd7-9a94-4991-b9da-b0fb90965685)
+
+#### Custom Framework Free Integration
+![Custom Framework](https://github.com/user-attachments/assets/deb1c304-6dce-4df2-b741-e01c06e67dde)
 
 #### View Form Submission In Frontend
 ![Form Submission](https://github.com/user-attachments/assets/4b48b9e4-d141-41c6-94fd-8d6b31f0b7f6)
