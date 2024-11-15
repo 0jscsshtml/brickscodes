@@ -7,6 +7,7 @@
 	"download_url" : "https://github.com/0jscsshtml/brickscodes/releases/download/v1.0.1/brickscodes.zip",
 	"requires" : "6.0",
 	"tested" : "6.7",
+	"theme_tested": "1.10.3",
 	"requires_php" : "7.4",
 	"last_updated" : "2024-11-13 02:10:00",
 	"sections" : {
