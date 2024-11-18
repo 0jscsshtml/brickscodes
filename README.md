@@ -76,6 +76,7 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Number/fraction pagination.
 * Progress Bar for overall progress and slide duration progress.
 * Play/Pause button for autoplay and autoscroll.
+* Disable Slider at selected breakpoint.
 
   
 ## Preview
