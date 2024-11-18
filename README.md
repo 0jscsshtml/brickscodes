@@ -77,6 +77,9 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Progress Bar for overall progress and slide duration progress.
 * Play/Pause button for autoplay and autoscroll.
 * Disable Slider at selected breakpoint.
+###### Back to Top
+* Add scroll progress to Back to Top Element.
+* When enabled, adding a Back to Top element will automatically include a scroll progress indicator. Customize its style as desired.
 
   
 ## Preview
