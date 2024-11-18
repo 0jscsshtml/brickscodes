@@ -104,5 +104,8 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 #### Slider Nested
 ![Slider Nested](https://github.com/user-attachments/assets/a9edec06-d5b0-43d6-ab73-299bb844789d)
 
+#### Back to Top with Progress
+![Back to Top](https://github.com/user-attachments/assets/c6def6ab-c7e1-4c91-836f-7fe1f6110b36)
+
 #### Plugin Update
 ![Update](https://github.com/user-attachments/assets/e2472580-4da5-4cac-91ab-8985a13fb989)
