@@ -81,7 +81,7 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Add scroll progress to Back to Top Element.
 * When enabled, adding a Back to Top element will automatically include a scroll progress indicator. Customize its style as desired.
 ###### Form
-* Form Abandonment
+* Form Abandonment (Module)
   * Seamlessly integrates with the Bricks Form element.
   * Utilizes the form's 'save-submission' and 'email' actions to store records in the database and send an email to users regarding form abandonment.
   * Forms can be submitted normally or saved as a draft by providing an email address.
@@ -89,11 +89,13 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
   * Records can be viewed in the backend via Bricks Form Submission, with the form's status. (Planned support for 'View Form Submission in Frontend' in the Custom Element.)
   * If the form is submitted normally, it follows the default behavior.
   * If submitted as a draft (incomplete form), all filled-in data is saved. The user will receive an email containing a secure, time-based token URL.
+  * If submitted as a draft, you may choose to exclude fields from saving.
   * Upon clicking the link, the user is automatically returned to the form page, where the token is validated, and the form is pre-filled with the saved data.
   * Subsequent submissions, whether normal or draft, will update the existing record in the database (no new entries), with proper data sanitization.
 
 In-Progress
 * Custom Registration ( Support ACF Custom Fields)
+* Webhook
 * Frontend Update User Profile Form ( Support ACF Custom Fields)
 * Frontend Create Post Form ( Support ACF Custom Fields)
 * Frontend Edit Post Form ( Support ACF Custom Fields)
@@ -125,6 +127,9 @@ In-Progress
 
 #### Back to Top with Progress
 ![Back to Top](https://github.com/user-attachments/assets/c6def6ab-c7e1-4c91-836f-7fe1f6110b36)
+
+#### Form Abandonment
+![Form Abandonment](https://github.com/user-attachments/assets/012f3f4c-f496-4f7f-955c-869f6c8cba72)
 
 #### Plugin Update
 ![Update](https://github.com/user-attachments/assets/e2472580-4da5-4cac-91ab-8985a13fb989)
