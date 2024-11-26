@@ -93,6 +93,10 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
   * Upon clicking the link, the user is automatically returned to the form page, where the token is validated, and the form is pre-filled with the saved data.
   * Subsequent submissions, whether normal or draft, will update the existing record in the database (no new entries), with proper data sanitization.
 
+* Confirmation Popup Modal Before Submission (Module)
+  * Set form custom action 'Confirm Before Submit', Select your popup template.
+  * When user click send/submit form, popup modal open, depend on user action, if reject submit, form will not send. else form send automatically.
+
 In-Progress
 * Custom Registration ( Support ACF Custom Fields)
 * Webhook
