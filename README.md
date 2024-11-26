@@ -15,7 +15,7 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Compact elements list.
 ###### Preview Global Class/Variables/Color Palette gird on hover 
 ###### Custom Builder Saved Message
-###### Disable Elements by Template Type (Header/Footer/Content)
+###### Disable Elements by Template Type (Header/Footer/Content) (for Non-Administrator)
 * Note: If the disabled elements are used in the Template/Content, Builder will throw warning error:generateCss: controls for element not found, and element/element controls are not rendered in Builder. Everything will work as normal in Builder and Frontend.
 ###### Builder Preloader Background Color
 ###### Query Manager
