@@ -134,8 +134,11 @@ In-Progress
 #### Back to Top with Progress
 ![Back to Top](https://github.com/user-attachments/assets/c6def6ab-c7e1-4c91-836f-7fe1f6110b36)
 
+#### Form Icon Radio/Checkbox
+![Icon Checkbox](https://github.com/user-attachments/assets/62d1b261-17c5-4824-82c9-cb7115da177a)
+
 #### Form Abandonment
-![Form Abandonment](https://github.com/user-attachments/assets/012f3f4c-f496-4f7f-955c-869f6c8cba72)
+![Form_Abandonment](https://github.com/user-attachments/assets/012f3f4c-f496-4f7f-955c-869f6c8cba72)
 
 #### Plugin Update
 ![Update](https://github.com/user-attachments/assets/e2472580-4da5-4cac-91ab-8985a13fb989)
