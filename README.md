@@ -81,6 +81,8 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Add scroll progress to Back to Top Element.
 * When enabled, adding a Back to Top element will automatically include a scroll progress indicator. Customize its style as desired.
 ###### Form
+* Icon Radio/Checkbox
+
 * Form Abandonment (Module)
   * Seamlessly integrates with the Bricks Form element.
   * Utilizes the form's 'save-submission' and 'email' actions to store records in the database and send an email to users regarding form abandonment.
@@ -95,7 +97,7 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 
 * Confirmation Popup Modal Before Submission (Module)
   * Set form custom action 'Confirm Before Submit', Select your popup template.
-  * When user click send/submit form, popup modal open, depend on user action, if reject submit, form will not send. else form send automatically.
+  * When the user clicks send/submit on the form, a confirmation popup will automatically appear, but only if all validations are successfully passed. No actions will proceed until the user confirms the submission.
 
 In-Progress
 * Custom Registration ( Support ACF Custom Fields)
