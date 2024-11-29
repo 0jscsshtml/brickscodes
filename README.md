@@ -82,6 +82,8 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * When enabled, adding a Back to Top element will automatically include a scroll progress indicator. Customize its style as desired.
 ###### Form
 * Icon Radio/Checkbox
+* Extra HTML5 pattern attribute for Password and Email field type. Validate in frontend with pure HTML5 validation and backend with form validation hook.
+* Signature Pad with File Preview. Seamlessly integrates with the Bricks Form element. Use form field type 'text' as Signature Pad input. Once enabled, it will automatically create field type 'file' for preview and upload.
 
 * Form Abandonment (Module)
   * Seamlessly integrates with the Bricks Form element.
@@ -136,6 +138,9 @@ In-Progress
 
 #### Form Icon Radio/Checkbox
 ![Icon Checkbox](https://github.com/user-attachments/assets/62d1b261-17c5-4824-82c9-cb7115da177a)
+
+#### Form Signature Pad
+![Signaturepad](https://github.com/user-attachments/assets/26a2a07e-8814-4661-9b45-2f0a76f32d06)
 
 #### Form Abandonment
 ![Form_Abandonment](https://github.com/user-attachments/assets/012f3f4c-f496-4f7f-955c-869f6c8cba72)
