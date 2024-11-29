@@ -84,6 +84,7 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Icon Radio/Checkbox
 * Extra HTML5 pattern attribute for Password and Email field type. Validate in frontend with pure HTML5 validation and backend with form validation hook.
 * Signature Pad with File Preview. Seamlessly integrates with the Bricks Form element. Use form field type 'text' as Signature Pad input. Once enabled, it will automatically create field type 'file' for preview and upload. Assets only loaded if enabled.
+* File uploads thumbnail preview. Auto filter out duplication. Seemless integrate with Bricks Form File type.
 
 * Form Abandonment (Module)
   * Seamlessly integrates with the Bricks Form element.
@@ -139,8 +140,9 @@ In-Progress
 #### Form Icon Radio/Checkbox
 ![Icon Checkbox](https://github.com/user-attachments/assets/62d1b261-17c5-4824-82c9-cb7115da177a)
 
-#### Form Signature Pad
-![Signaturepad](https://github.com/user-attachments/assets/26a2a07e-8814-4661-9b45-2f0a76f32d06)
+#### Form Signature Pad & Form File Upload Preview
+<img src="https://github.com/user-attachments/assets/26a2a07e-8814-4661-9b45-2f0a76f32d06" width="48%">
+<img src="https://github.com/user-attachments/assets/d5161709-548d-4c30-8b38-ce51d12cc6d1" width="48%">
 
 #### Form Abandonment
 ![Form_Abandonment](https://github.com/user-attachments/assets/012f3f4c-f496-4f7f-955c-869f6c8cba72)
