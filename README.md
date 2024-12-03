@@ -86,6 +86,22 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Signature Pad with File Preview. Seamlessly integrates with the Bricks Form element. Support viewport resize and redraw signed signature. Use form field type 'text' as Signature Pad input. Once enabled, it will automatically create field type 'file' for preview and upload. Assets only loaded if enabled.
 * File uploads thumbnail preview. Auto filter out duplication. Seemless integrate with Bricks Form File type.
 
+* Advance User Registration (Module)
+  * Seamlessly integrates with Bricks' Form default User Registration action.
+  * Supports ACF fields.
+  * Offers an option to validate user email addresses using a secure, time-based activation link before creating the user account.
+    * When enabled, all form fields except the email field are removed (not rendered) on the frontend.
+    * Validates the user's email address before sending the activation link.
+    * Once the user receives the activation link and clicks it, they are redirected back to the form page. The link and email address are validated. If validation is successful, all form fields become available, with the email address pre-filled.
+    * The user can then continue the registration process.
+  * Supports ACF fields:
+    * Create an ACF User field group and assign its location to the user form.
+    * Add form fields as usual, including fields for your custom ACF User fields.
+    * Choose the default Bricks User Registration form action.
+    * A new set of controls in the Registration group allows you to select an ACF User field group.
+    * Once the ACF User field group is selected, the corresponding custom fields are automatically populated in the mapping repeater fields. Simply map the ACF fields to the form fields as needed.
+    * Upon submission, all ACF User custom fields will be automatically populated and saved to the user profile. Manual publishing or saving of the user post is not required.
+      
 * Form Abandonment (Module)
   * Seamlessly integrates with the Bricks Form element.
   * Utilizes the form's 'save-submission' and 'email' actions to store records in the database and send an email to users regarding form abandonment.
@@ -103,7 +119,6 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
   * When the user clicks send/submit on the form, a confirmation popup will automatically appear, but only if all validations are successfully passed. No actions will proceed until the user confirms the submission.
 
 In-Progress
-* Custom Registration ( Support ACF Custom Fields)
 * Webhook
 * Frontend Update User Profile Form ( Support ACF Custom Fields)
 * Frontend Create Post Form ( Support ACF Custom Fields)
@@ -143,6 +158,9 @@ In-Progress
 #### Form Signature Pad & Form File Upload Preview
 <img src="https://github.com/user-attachments/assets/26a2a07e-8814-4661-9b45-2f0a76f32d06" width="48%">
 <img src="https://github.com/user-attachments/assets/d5161709-548d-4c30-8b38-ce51d12cc6d1" width="48%">
+
+#### Form Advance User Registration
+![Advance Registration](https://github.com/user-attachments/assets/20fef07c-c3d9-4d1b-a0ed-3618617481ce)
 
 #### Form Abandonment
 ![Form_Abandonment](https://github.com/user-attachments/assets/012f3f4c-f496-4f7f-955c-869f6c8cba72)
