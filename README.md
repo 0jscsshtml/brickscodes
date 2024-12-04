@@ -85,6 +85,7 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Extra HTML5 pattern attribute for Password and Email field type. Validate in frontend with pure HTML5 validation and backend with form validation hook.
 * Signature Pad with File Preview. Seamlessly integrates with the Bricks Form element. Support viewport resize and redraw signed signature. Use form field type 'text' as Signature Pad input. Once enabled, it will automatically create field type 'file' for preview and upload. Assets only loaded if enabled.
 * File uploads thumbnail preview. Auto filter out duplication. Seemless integrate with Bricks Form File type.
+* Offline Brickscodes Remote Templates are accessible only if you activate the Form Abandonment or Confirmation Popup Modal Before Submission module. Save the sample popup template as a popup template type and style it according to your preferences. However, it is essential not to alter the JavaScript event interactions for the popup button.
 
 * Advance User Registration (Module)
   * Seamlessly integrates with Bricks' Form default User Registration action.
@@ -161,6 +162,9 @@ In-Progress
 
 #### Form Advance User Registration
 ![Advance Registration](https://github.com/user-attachments/assets/20fef07c-c3d9-4d1b-a0ed-3618617481ce)
+
+#### Offline Brickscodes Remote Templates
+![Remote Templates](https://github.com/user-attachments/assets/14d7ed54-2241-4c58-af81-89a0d1db8358)
 
 #### Form Abandonment
 ![Form_Abandonment](https://github.com/user-attachments/assets/012f3f4c-f496-4f7f-955c-869f6c8cba72)
