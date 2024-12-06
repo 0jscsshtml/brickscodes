@@ -18,6 +18,10 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 ###### Disable Elements by Template Type (Header/Footer/Content) (for Non-Administrator)
 * Note: If the disabled elements are used in the Template/Content, Builder will throw warning error:generateCss: controls for element not found, and element/element controls are not rendered in Builder. Everything will work as normal in Builder and Frontend.
 ###### Builder Preloader Background Color
+###### Favorite Remote Templates
+* A favorite button is available on all remote templates.
+* All templates marked as favorites will be added to your custom favorite remote template library.
+* Remove favorite templates using either the favorite or remove button.
 ###### Query Manager
 * First load automatically pulling all query settings from element across entire site and save as first query records in query manager modal.
 * Save new query record - Set your query settings on element as usual, once finalized, click save, give a query name/tag/description and save.
@@ -129,6 +133,9 @@ In-Progress
 
   
 ## Preview
+#### Custom Favorite Remote Templates Library
+![Favorite Remote Templates](https://github.com/user-attachments/assets/ddeb05d5-3c71-4e51-b497-ebf89ece657b)
+
 #### Query Manager
 ![Query Manager](https://github.com/user-attachments/assets/f5721e97-89b0-47d6-8dfd-e3b3055d049b)
 
