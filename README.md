@@ -61,6 +61,8 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 ## Custom Elements
 ###### 3D Model Viewer
 * Support glb/gltf, model animation, lazy load, camera control, etc.
+###### Image Before After Viewer
+* Convert the library from https://image-compare-viewer.netlify.app/ into Bricks Builder element.
 ###### Copy to Clipboard Button
 * Support Dynamic tag as copy content.
 * Specify class/id to copy its text content, option to specfiy tags to exlude.
@@ -150,6 +152,9 @@ In-Progress
 
 #### 3D Model Viewer
 ![3d Model Viewer](https://github.com/user-attachments/assets/899fb964-bfb9-4169-8871-a6cffe4720a6)
+
+#### Image Before After Comparison
+![Image Before After](https://github.com/user-attachments/assets/3ce3d64b-8480-4958-87d0-2031f0174a37)
 
 #### Copy to Clipboard Button
 ![Copy to Clipboard Button](https://github.com/user-attachments/assets/feddfa15-ba96-4e7f-bc83-9c8c5fef4b6c)
