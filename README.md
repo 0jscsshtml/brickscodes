@@ -174,6 +174,9 @@ In-Progress
 <img src="https://github.com/user-attachments/assets/26a2a07e-8814-4661-9b45-2f0a76f32d06" width="48%">
 <img src="https://github.com/user-attachments/assets/d5161709-548d-4c30-8b38-ce51d12cc6d1" width="48%">
 
+#### Form Passowrd Field Pattern Validation & Visibility Toggle. Form Tel Fields International Tel Support
+![Password and Tel Fields](https://github.com/user-attachments/assets/4f6f51fb-5186-4b18-8abb-c354334579e3)
+
 #### Form Advance User Registration
 ![Advance Registration](https://github.com/user-attachments/assets/20fef07c-c3d9-4d1b-a0ed-3618617481ce)
 
