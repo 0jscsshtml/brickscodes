@@ -63,6 +63,8 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Support glb/gltf, model animation, lazy load, camera control, etc.
 ###### Image Before After Viewer
 * Convert the library from https://image-compare-viewer.netlify.app/ into Bricks Builder element.
+###### Lottie Player
+* Support the new DotLottie format (.lottie) alongside traditional .json files. Files can be added via media uploads, dynamic data sources, or custom URLs. Leverage the DotLottieWorker for optimized animation rendering. Provide support for configurable options such as speed, mode, autoplay, loop, and start-end frames.
 ###### Copy to Clipboard Button
 * Support Dynamic tag as copy content.
 * Specify class/id to copy its text content, option to specfiy tags to exlude.
@@ -157,6 +159,9 @@ In-Progress
 
 #### Image Before After Comparison
 ![Image Before After](https://github.com/user-attachments/assets/3ce3d64b-8480-4958-87d0-2031f0174a37)
+
+#### Lottie Player
+![Lottie](https://github.com/user-attachments/assets/52193988-9290-4f77-b309-14911c84c840)
 
 #### Copy to Clipboard Button
 ![Copy to Clipboard Button](https://github.com/user-attachments/assets/feddfa15-ba96-4e7f-bc83-9c8c5fef4b6c)
