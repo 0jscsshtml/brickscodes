@@ -85,6 +85,9 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Progress Bar for overall progress and slide duration progress.
 * Play/Pause button for autoplay and autoscroll.
 * Disable Slider at selected breakpoint.
+###### Tabs Nested
+* Enhance Tabs Nested with Controls such as Tab Menu Horizontol Scroll, Vertical Tab Menu, Convert to Accordion by selected breakpoint.
+* The rest can be handle by Bricks Interactions for content animation with target .brx-open
 ###### Back to Top
 * Add scroll progress to Back to Top Element.
 * When enabled, adding a Back to Top element will automatically include a scroll progress indicator. Customize its style as desired.
@@ -168,6 +171,9 @@ In-Progress
 
 #### Slider Nested
 ![Slider Nested](https://github.com/user-attachments/assets/a9edec06-d5b0-43d6-ab73-299bb844789d)
+
+#### Tabs Nested
+![Tabs Nested](https://github.com/user-attachments/assets/f1e890ed-208e-46c2-98bb-f2d0a91c06ea)
 
 #### Back to Top with Progress
 ![Back to Top](https://github.com/user-attachments/assets/c6def6ab-c7e1-4c91-836f-7fe1f6110b36)
