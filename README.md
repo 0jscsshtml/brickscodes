@@ -16,7 +16,8 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 ###### Preview Global Class/Variables/Color Palette gird on hover 
 ###### Custom Builder Saved Message
 ###### Disable Elements by Template Type (Header/Footer/Content) (for Non-Administrator)
-* Note: If the disabled elements are used in the Template/Content, Builder will throw warning error:generateCss: controls for element not found, and element/element controls are not rendered in Builder. Everything will work as normal in Builder and Frontend.
+* When you click the 'Edit with Bricks' link or button on a Post, Page, or Template, disabled elements will be automatically applied based on the template type.
+* Note: If disabled elements are used in the current Template/Content, the Builder will display a warning in the console with the error: generateCss: controls for element not found. The elements and their controls will not be rendered in the Builder. However, everything will continue to function normally in both the Builder and the Frontend.
 ###### Builder Preloader Background Color
 ###### Favorite Remote Templates
 * A favorite button is available on all remote templates.
@@ -57,14 +58,14 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * When deactivate plugin, you may choose to keep Core Framework.
 * Core Framework dark/light mode toggle in Builder.
 ###### Custom Framework Integration
-* Upload your custom framework stylesheet, let Brickscodes automatically import Classes and Variables in to Builder and enqueue stylesheet in Canvas and Frontend
+* Upload any stylesheet, let Brickscodes automatically extract and import Variables in to Builder.
 ## Custom Elements
 ###### 3D Model Viewer
-* Support glb/gltf, model animation, lazy load, camera control, etc.
+* Support glb/gltf, model animation, lazy load, camera control, etc. More info here https://modelviewer.dev/docs/
 ###### Image Before After Viewer
 * Convert the library from https://image-compare-viewer.netlify.app/ into Bricks Builder element.
 ###### Lottie Player
-* Support the new DotLottie format (.lottie) alongside traditional .json files. Files can be added via media uploads, dynamic data sources, or custom URLs. Leverage the DotLottieWorker for optimized animation rendering. Provide support for configurable options such as speed, mode, autoplay, loop, and start-end frames.
+* Support the new DotLottie format (.lottie) alongside traditional .json files. Files can be added via media uploads, dynamic data sources, or custom URLs. Leverage the DotLottieWorker for optimized animation rendering. Provide support for configurable options such as speed, mode, autoplay, loop, and start-end frames. More information here https://developers.lottiefiles.com/docs/dotlottie-player/dotlottie-web/
 ###### Copy to Clipboard Button
 * Support Dynamic tag as copy content.
 * Specify class/id to copy its text content, option to specfiy tags to exlude.
