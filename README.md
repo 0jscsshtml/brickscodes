@@ -51,7 +51,7 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 ###### Post Terms
 * {bc_post_type_taxonomy_terms:post_type_slug:taxonomy_slug} - This will return terms id and name for select/checkbox/radio options. Replace post_type_slug and taxonomy_slug to your target slug.
 ## Global Classes and Variables
-###### Core Framework Free Integration
+###### Core Framework Free Integration (reference https://docs.coreframework.com/development/coreframework-helper )
 * Auto sync changes that made on Core Framework settings page to Builder.
 * All Core Framework classes and variable are auto import to Builder.
 * Separate modal for Core Framework Variables.
