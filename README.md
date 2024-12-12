@@ -77,7 +77,7 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Limit total entries return.
 * Support filter by date.
 * Support pagination for default table.
-* Support advance table with export, pagination, column reorder, responsive.
+* Supports advanced tables with features like export, pagination, column reordering, and responsiveness. Assets are loaded only when these features are enabled. (https://datatables.net/manual/index)
 ## Enhance Native Bricks Elements
 ###### Slider Nested
 * Support Splide Extension UrlHashNavigation, AutoScroll, Intersection. Extension assets only load if enabled.
@@ -95,9 +95,9 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 ###### Form
 * Icon Radio/Checkbox
 * Extra HTML5 pattern attribute for Password and Email field type. Validate in frontend with pure HTML5 validation and backend with form validation hook.
-* International telephone support seamlessly integrates with the Bricks form's Tel field type. Automatically detects the user's country using multiple free lookup services, ensuring reliability even if some services fail. Provides real-time telephone number validation and saves the number in full, including the country code.
+* International telephone support seamlessly integrates with the Bricks form's Tel field type. Automatically detects the user's country using multiple free lookup services, ensuring reliability even if some services fail. Provides real-time telephone number validation and saves the number in full, including the country code. (https://github.com/jackocnr/intl-tel-input)
 * Password visibility toggle integrate to Bricks form's password field.
-* Signature Pad with File Preview. Seamlessly integrates with the Bricks Form element. Support viewport resize and redraw signed signature. Use form field type 'text' as Signature Pad input. Once enabled, it will automatically create field type 'file' for preview and upload. Assets only loaded if enabled.
+* Signature Pad with File Preview. Seamlessly integrates with the Bricks Form element. Support viewport resize and redraw signed signature. Use form field type 'text' as Signature Pad input. Once enabled, it will automatically create field type 'file' for preview and upload. Assets only loaded if enabled. (https://github.com/szimek/signature_pad)
 * File uploads thumbnail preview. Auto filter out duplication. Seemless integrate with Bricks Form File type.
 * Offline Brickscodes Remote Templates are accessible only if you activate the Form Abandonment or Confirmation Popup Modal Before Submission module. Save the sample popup template as a popup template type and style it according to your preferences. However, it is essential not to alter the JavaScript event interactions for the popup button.
 
