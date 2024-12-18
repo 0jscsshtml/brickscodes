@@ -103,7 +103,6 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 
 * Advance User Registration (Module)
   * Seamlessly integrates with Bricks' Form default User Registration action.
-  * Supports ACF fields.
   * Offers an option to validate user email addresses using a secure, time-based activation link before creating the user account.
     * When enabled, all form fields except the email field are removed (not rendered) on the frontend.
     * Validates the user's email address before sending the activation link.
@@ -116,7 +115,18 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
     * A new set of controls in the Registration group allows you to select an ACF User field group.
     * Once the ACF User field group is selected, the corresponding custom fields are automatically populated in the mapping repeater fields. Simply map the ACF fields to the form fields as needed.
     * Upon submission, all ACF User custom fields will be automatically populated and saved to the user profile. Manual publishing or saving of the user post is not required.
-      
+
+* Frontend Form Update User Metas (Module)
+  * The form is displayed only when the user is logged in. By default, fields for email, username, and password are disabled and cannot be modified. However, there is an option to enable password changes.
+  * Add form fields as needed, including those for custom ACF User fields. Populate field values with dynamic wp user and ACF user field data to pre-fill the form with user information.
+  * Supported ACF fields:
+    * Create an ACF User field group and assign its location to the user form.
+    * Add form fields as required, including custom ACF User fields.
+    * Select the custom form action update-user-metas.
+    * In the User Profile/Metas group, use the provided controls to choose an ACF User field group.
+    * When an ACF User field group is selected, its associated custom fields are automatically added to the mapping repeater fields. Simply map the ACF fields to the form fields as needed.
+    * Upon form submission, all custom ACF User fields are automatically updated and saved to the user profile. Manual publishing or saving of the user post is not necessary.
+
 * Form Abandonment (Module)
   * Seamlessly integrates with the Bricks Form element.
   * Utilizes the form's 'save-submission' and 'email' actions to store records in the database and send an email to users regarding form abandonment.
@@ -135,7 +145,6 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 
 In-Progress
 * Webhook
-* Frontend Update User Profile Form ( Support ACF Custom Fields)
 * Frontend Create Post Form ( Support ACF Custom Fields)
 * Frontend Edit Post Form ( Support ACF Custom Fields)
 
@@ -192,6 +201,9 @@ In-Progress
 #### Form Advance User Registration
 ![Advance Registration](https://github.com/user-attachments/assets/20fef07c-c3d9-4d1b-a0ed-3618617481ce)
 
+#### Form Frontend Form Update User Metas
+![Update User Profile](https://github.com/user-attachments/assets/f718023d-ff9c-4473-82a9-72ac09b6ed81)
+
 #### Offline Brickscodes Remote Templates
 ![Remote Templates](https://github.com/user-attachments/assets/14d7ed54-2241-4c58-af81-89a0d1db8358)
 
@@ -200,3 +212,4 @@ In-Progress
 
 #### Plugin Update
 ![Update](https://github.com/user-attachments/assets/e2472580-4da5-4cac-91ab-8985a13fb989)
+
