@@ -100,6 +100,7 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Signature Pad with File Preview. Seamlessly integrates with the Bricks Form element. Support viewport resize and redraw signed signature. Use form field type 'text' as Signature Pad input. Once enabled, it will automatically create field type 'file' for preview and upload. Assets only loaded if enabled. (https://github.com/szimek/signature_pad)
 * File uploads thumbnail preview. Auto filter out duplication. Seemless integrate with Bricks Form File type.
 * Offline Brickscodes Remote Templates are accessible only if you activate the Form Abandonment or Confirmation Popup Modal Before Submission module. Save the sample popup template as a popup template type and style it according to your preferences. However, it is essential not to alter the JavaScript event interactions for the popup button.
+* Supports ACF repeater fields, allowing you to add, delete, and sort repeater rows while enforcing the maximum row limit based on the repeater's settings.
 
 * Advance User Registration (Module)
   * Seamlessly integrates with Bricks' Form default User Registration action.
@@ -204,6 +205,9 @@ In-Progress
 #### Form Frontend Form Update User Metas
 ![Update User Profile](https://github.com/user-attachments/assets/f718023d-ff9c-4473-82a9-72ac09b6ed81)
 
+#### Form Frontend Form with Repeater Fields
+![Repeater fields](https://github.com/user-attachments/assets/28179ae9-aa40-43c7-92a8-96e987e6f97f)
+
 #### Offline Brickscodes Remote Templates
 ![Remote Templates](https://github.com/user-attachments/assets/14d7ed54-2241-4c58-af81-89a0d1db8358)
 
@@ -212,4 +216,3 @@ In-Progress
 
 #### Plugin Update
 ![Update](https://github.com/user-attachments/assets/e2472580-4da5-4cac-91ab-8985a13fb989)
-
