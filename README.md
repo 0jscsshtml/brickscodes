@@ -102,6 +102,16 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Offline Brickscodes Remote Templates are accessible only if you activate the Form Abandonment or Confirmation Popup Modal Before Submission module. Save the sample popup template as a popup template type and style it according to your preferences. However, it is essential not to alter the JavaScript event interactions for the popup button.
 * Supports ACF repeater fields, allowing you to add, delete, and sort repeater rows while enforcing the maximum row limit based on the repeater's settings.
 
+* Datepicker Extra Options
+  * Options to disable weekend.
+  * Options 'single, multiple, range' selection mode.
+  * Options current time as default hour and minute.
+  * Options to select day as first day of the week.
+  * Options to disable calendar.
+  * Options to set start and end dates for dates selection.
+  * Options to disable multiple/range of dates.
+  * Options to automatically disable dates based on selected dates from another Datepicker.
+
 * Advance User Registration (Module)
   * Seamlessly integrates with Bricks' Form default User Registration action.
   * Offers an option to validate user email addresses using a secure, time-based activation link before creating the user account.
@@ -198,6 +208,9 @@ In-Progress
 
 #### Form Passowrd Field Pattern Validation & Visibility Toggle. Form Tel Fields International Tel Support
 ![Password and Tel Fields](https://github.com/user-attachments/assets/4f6f51fb-5186-4b18-8abb-c354334579e3)
+
+#### Form Advance Datepicker
+![Datepicker](https://github.com/user-attachments/assets/6c339fdb-eee8-4900-81ec-10773ebe3c37)
 
 #### Form Advance User Registration
 ![Advance Registration](https://github.com/user-attachments/assets/20fef07c-c3d9-4d1b-a0ed-3618617481ce)
