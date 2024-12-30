@@ -105,6 +105,7 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Datepicker Extra Options
   * Options to disable weekend.
   * Options 'single, multiple, range' selection mode.
+  * options to show multiple months, fallback to single month if viewport size less than 600px.
   * Options current time as default hour and minute.
   * Options to select day as first day of the week.
   * Options to disable calendar.
