@@ -151,6 +151,14 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
   * Upon clicking the link, the user is automatically returned to the form page, where the token is validated, and the form is pre-filled with the saved data.
   * Subsequent submissions, whether normal or draft, will update the existing record in the database (no new entries), with proper data sanitization.
 
+* Form Frontend Update ACF/WP options (Module)
+  * Adds a custom form action: 'update-options'.
+  * By default, only user roles with the 'manage_options' capability can update options.
+  * Includes an option to exclude specific user roles from this form action.
+  * Supports both WordPress and ACF options.
+  * For WordPress options, you can update any option by providing the option name. For array-type options, you need to provide both the option name and the specific key.
+  * Supports updating ACF options pages. You can select an ACF options page from the list, and the corresponding fields will automatically populate in the repeater mapping field.
+
 * Confirmation Popup Modal Before Submission (Module)
   * Set form custom action 'Confirm Before Submit', Select your popup template.
   * When the user clicks send/submit on the form, a confirmation popup will automatically appear, but only if all validations are successfully passed. No actions will proceed until the user confirms the submission.
@@ -216,6 +224,12 @@ In-Progress
 #### Form Advance User Registration
 ![Advance Registration](https://github.com/user-attachments/assets/20fef07c-c3d9-4d1b-a0ed-3618617481ce)
 
+#### Form Abandonment
+![Form_Abandonment](https://github.com/user-attachments/assets/012f3f4c-f496-4f7f-955c-869f6c8cba72)
+
+#### Form Update Options
+![Update Options](https://github.com/user-attachments/assets/20b0fdf1-fd0d-49d6-889a-2566b8ca4a3b)
+
 #### Form Frontend Form Update User Metas
 ![Update User Profile](https://github.com/user-attachments/assets/f718023d-ff9c-4473-82a9-72ac09b6ed81)
 
@@ -224,9 +238,6 @@ In-Progress
 
 #### Offline Brickscodes Remote Templates
 ![Remote Templates](https://github.com/user-attachments/assets/14d7ed54-2241-4c58-af81-89a0d1db8358)
-
-#### Form Abandonment
-![Form_Abandonment](https://github.com/user-attachments/assets/012f3f4c-f496-4f7f-955c-869f6c8cba72)
 
 #### Plugin Update
 ![Update](https://github.com/user-attachments/assets/e2472580-4da5-4cac-91ab-8985a13fb989)
