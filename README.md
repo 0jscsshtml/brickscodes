@@ -169,6 +169,7 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
   * Configurable cURL settings, including connection timeout and payload buffer size.
   * Allows setting a retry limit for failed cURL connections.
   * Utilizes multiple handlers with retry logic for managing webhook request calls efficiently.
+  * Try Webhook here https://webhook.site/
   
 * Confirmation Popup Modal Before Submission (Module)
   * Set form custom action 'Confirm Before Submit', Select your popup template.
