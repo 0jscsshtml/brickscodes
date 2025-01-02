@@ -159,12 +159,22 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
   * For WordPress options, you can update any option by providing the option name. For array-type options, you need to provide both the option name and the specific key.
   * Supports updating ACF options pages. You can select an ACF options page from the list, and the corresponding fields will automatically populate in the repeater mapping field.
 
+* Form Webhook (Module)
+  * Introduces a custom form action: 'webhook'.
+  * Provides options to exclude specific form fields from data submission.
+  * Includes a repeater field to add multiple webhook URLs.
+  * Option to enable HMAC authentication in the request header.
+  * Supports both POST and GET request methods.
+  * Offers flexible data formats: FormData, JSON, Query String, or Multi-part.
+  * Configurable cURL settings, including connection timeout and payload buffer size.
+  * Allows setting a retry limit for failed cURL connections.
+  * Utilizes multiple handlers with retry logic for managing webhook request calls efficiently.
+  
 * Confirmation Popup Modal Before Submission (Module)
   * Set form custom action 'Confirm Before Submit', Select your popup template.
   * When the user clicks send/submit on the form, a confirmation popup will automatically appear, but only if all validations are successfully passed. No actions will proceed until the user confirms the submission.
 
 In-Progress
-* Webhook
 * Frontend Create Post Form ( Support ACF Custom Fields)
 * Frontend Edit Post Form ( Support ACF Custom Fields)
 
