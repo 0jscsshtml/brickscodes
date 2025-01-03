@@ -236,7 +236,7 @@ In-Progress
 ![Advance Registration](https://github.com/user-attachments/assets/20fef07c-c3d9-4d1b-a0ed-3618617481ce)
 
 #### Form Webhook
-![Upd![Webhook](https://github.com/user-attachments/assets/67c6e220-c852-4d43-aa69-820e4c3c2918)
+![Webhook](https://github.com/user-attachments/assets/67c6e220-c852-4d43-aa69-820e4c3c2918)
 
 #### Form Abandonment
 ![Form_Abandonment](https://github.com/user-attachments/assets/012f3f4c-f496-4f7f-955c-869f6c8cba72)
@@ -254,4 +254,4 @@ In-Progress
 ![Remote Templates](https://github.com/user-attachments/assets/14d7ed54-2241-4c58-af81-89a0d1db8358)
 
 #### Plugin Update
-ate](https://github.com/user-attachments/assets/e2472580-4da5-4cac-91ab-8985a13fb989)
+![Update](https://github.com/user-attachments/assets/e2472580-4da5-4cac-91ab-8985a13fb989)
