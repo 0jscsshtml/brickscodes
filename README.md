@@ -65,14 +65,17 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 ###### Image Before After Viewer
 * Convert the library from https://image-compare-viewer.netlify.app/ into Bricks Builder element.
 ###### Image Hotspots (from Codepen https://codepen.io/abcretrograde/pen/dKGOEL)
-* Marker Content
+* Hotspot Content
   * Support static and query loop content.
   * Option to always show title.
   * Click or Click/Hover reveal content.
   * Auto positioning Content direction.
-* Markers
-  * All markers are defined here, whether the marker content is static or generated from a Query Loop.
-  * Responsive marker positioning is supported, allowing adjustments directly within the Builder without the need to switch back and forth between the Builder and post meta to fine-tune positions for different breakpoints.
+* Hotspot Marker
+  * All markers must be defined here, whether the marker content is static or generated from a Query Loop, avoid the need to switch back and forth between the Builder and post meta to fine-tune positions for different breakpoints.
+  * Responsive marker positioning is supported, allowing adjustments directly within the Builder.
+* Hotspot Image
+  * Source from media/url/dynamic data
+  * Image srcset suuport.
 ###### Lottie Player
 * Support the new DotLottie format (.lottie) alongside traditional .json files. Files can be added via media uploads, dynamic data sources, or custom URLs. Leverage the DotLottieWorker for optimized animation rendering. Provide support for configurable options such as speed, mode, autoplay, loop, and start-end frames. More information here https://developers.lottiefiles.com/docs/dotlottie-player/dotlottie-web/
 ###### Copy to Clipboard Button
