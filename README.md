@@ -236,7 +236,7 @@ In-Progress
 #### Copy to Clipboard Button
 ![Copy to Clipboard Button](https://github.com/user-attachments/assets/feddfa15-ba96-4e7f-bc83-9c8c5fef4b6c)
 
-#### Layout Elements (Section, Container, Block, Div) - Animate SVG Shape Divider
+#### Layout Elements (Section, Container, Block, Div) - Animate SVG Shape Divider on Scroll
 ![Animate Shape Divider](https://github.com/user-attachments/assets/272fb860-9761-4ef8-905b-4d7a76915cac)
 
 #### Slider Nested
