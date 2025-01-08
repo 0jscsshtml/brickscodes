@@ -92,7 +92,7 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Supports advanced tables with features like export, pagination, column reordering, and responsiveness. Assets are loaded only when these features are enabled. (https://datatables.net/manual/index)
 ## Enhance Native Bricks Elements
 ###### Layout Elements (Section, Container, Block, Div)
-* Animate SVG Shape Divider:
+* Animate SVG Shape Divider on scroll:
   * Extra control added to enable shape divider animation on layout elements.
   * Prepare your svg shape divider as stated in this article https://tympanus.net/codrops/2022/06/08/how-to-animate-svg-shapes-on-scroll/
   * Simply enable it, and it will work seamlessly. GSAP, ScrollTrigger, and Lenis assets are loaded on the frontend only when the feature is enabled.
