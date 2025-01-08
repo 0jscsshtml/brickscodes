@@ -91,6 +91,11 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Support pagination for default table.
 * Supports advanced tables with features like export, pagination, column reordering, and responsiveness. Assets are loaded only when these features are enabled. (https://datatables.net/manual/index)
 ## Enhance Native Bricks Elements
+###### Layout Elements (Section, Container, Block, Div)
+* Animate SVG Shape Divider:
+  * Extra control added to enable shape divider animation on layout elements.
+  * Prepare your svg shape divider as stated in this article https://tympanus.net/codrops/2022/06/08/how-to-animate-svg-shapes-on-scroll/
+  * Simply enable it, and it will work seamlessly. GSAP, ScrollTrigger, and Lenis assets are loaded on the frontend only when the feature is enabled.
 ###### Slider Nested
 * Support Splide Extension UrlHashNavigation, AutoScroll, Intersection. Extension assets only load if enabled.
 * Support sync sliders.
@@ -230,6 +235,9 @@ In-Progress
 
 #### Copy to Clipboard Button
 ![Copy to Clipboard Button](https://github.com/user-attachments/assets/feddfa15-ba96-4e7f-bc83-9c8c5fef4b6c)
+
+#### Layout Elements (Section, Container, Block, Div) - Animate SVG Shape Divider
+![Animate Shape Divider](https://github.com/user-attachments/assets/272fb860-9761-4ef8-905b-4d7a76915cac)
 
 #### Slider Nested
 ![Slider Nested](https://github.com/user-attachments/assets/a9edec06-d5b0-43d6-ab73-299bb844789d)
