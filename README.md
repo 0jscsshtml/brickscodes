@@ -187,6 +187,12 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
   * Set form custom action 'Confirm Before Submit', Select your popup template.
   * When the user clicks send/submit on the form, a confirmation popup will automatically appear, but only if all validations are successfully passed. No actions will proceed until the user confirms the submission.
 
+## Others
+###### Lenis Smooth Scroll
+* A new Lenis control group has been added under Settings → Page Settings in the Builder:
+* Enable Lenis: Activate Lenis for specific pages as needed. Lenis assets are loaded only if enabled and exclusively on the frontend.
+* Scroll Sync with GSAP ScrollTrigger: Includes an option to synchronize scrolling with GSAP's ScrollTrigger.
+
 In-Progress
 * Frontend Create Post Form ( Support ACF Custom Fields)
 * Frontend Edit Post Form ( Support ACF Custom Fields)
