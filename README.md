@@ -182,8 +182,8 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
   * Once all fields are assigned to step groups, enable step progress navigation bar. A step progress component using the native Bricks List Element is automatically created with all step groups.
   * Customize step progress icons and titles as needed.
   * You can jump straight to specific completed step by clicking step icon.
-  * Optiona to rreview the full form on the last step.
-  * All form groups will be visible in Builder.
+  * Option torreview the full form on the last step.
+  * Option to show all form groups in Builder.
 
 * Form Webhook (Module)
   * Introduces a custom form action: 'webhook'.
