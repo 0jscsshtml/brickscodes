@@ -130,6 +130,14 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
   * Options to disable multiple/range of dates.
   * Options to automatically disable dates based on selected dates from another Datepicker.
 
+* HTML Email Template Builder (Module) (https://docs.unlayer.com/docs/getting-started)
+  * Html Email Template Builder powered by Unlayer in Bricks Builder.
+  * Email Builder only can open when you working on form.
+  * Save Email Template locally.
+  * Load saved template by choice.
+  * Support Bricks form dynamic fields.(https://academy.bricksbuilder.io/article/form-element/)
+  * One click export html email template to Form Confirm Email Content.
+
 * Advance User Registration (Module)
   * Seamlessly integrates with Bricks' Form default User Registration action.
   * Offers an option to validate user email addresses using a secure, time-based activation link before creating the user account.
@@ -270,6 +278,9 @@ In-Progress
 #### Form Advance Datepicker
 ![Datepicker](https://github.com/user-attachments/assets/6c339fdb-eee8-4900-81ec-10773ebe3c37)
 
+#### HTML Email Template Builder
+![Email Template Builder](https://github.com/user-attachments/assets/e2ae781d-74ef-402e-8b9c-5cee2e660440)
+
 #### Form Advance User Registration
 ![Advance Registration](https://github.com/user-attachments/assets/20fef07c-c3d9-4d1b-a0ed-3618617481ce)
 
@@ -296,4 +307,3 @@ In-Progress
 
 #### Plugin Update
 ![Update](https://github.com/user-attachments/assets/e2472580-4da5-4cac-91ab-8985a13fb989)
-
