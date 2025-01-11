@@ -177,11 +177,13 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
   * Supports updating ACF options pages. You can select an ACF options page from the list, and the corresponding fields will automatically populate in the repeater mapping field.
 
 * Form Multi Steps From (Module)
-  * Enabling Multi-Steps adds a new control to all form field types.
-  * Assign form fields to specific step groups.
-  * Once all fields are assigned to step groups, step progress can be enabled. A step progress component using the native Bricks List Element is automatically created with all step groups.
+  * Enabling Multi-Steps mode adds a new control 'step group' to all form field types.
+  * Assign form fields to dedicated step group as needed.
+  * Once all fields are assigned to step groups, enable step progress navigation bar. A step progress component using the native Bricks List Element is automatically created with all step groups.
   * Customize step progress icons and titles as needed.
-  * Optiona to preview the full form on the last step.
+  * You can jump straight to specific completed step by clicking step icon.
+  * Optiona to rreview the full form on the last step.
+  * All form groups will be visible in Builder.
 
 * Form Webhook (Module)
   * Introduces a custom form action: 'webhook'.
@@ -281,7 +283,7 @@ In-Progress
 ![Update Options](https://github.com/user-attachments/assets/20b0fdf1-fd0d-49d6-889a-2566b8ca4a3b)
 
 #### Form Multi Steps
-![Multistep form](https://github.com/user-attachments/assets/1f7acc29-a1b5-4285-a4e6-3b7af26d3500)
+![Multistep form](https://github.com/user-attachments/assets/8539a313-8a16-486f-a5bf-5aceae1332b4)
 
 #### Form Frontend Form Update User Metas
 ![Update User Profile](https://github.com/user-attachments/assets/f718023d-ff9c-4473-82a9-72ac09b6ed81)
