@@ -134,9 +134,10 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
   * Html Email Template Builder powered by Unlayer in Bricks Builder.
   * Email Builder only can open when you working on form.
   * Save Email Template locally.
-  * Load saved template by choice.
+  * Load saved template locally.
   * Support Bricks form dynamic fields.(https://academy.bricksbuilder.io/article/form-element/)
   * One click export html email template to Form Confirm Email Content.
+  * Button to open Media Library, select image as needed. Image Url will be copy to clipboard. You can paste into Unlayer Image Block Url input.
 
 * Advance User Registration (Module)
   * Seamlessly integrates with Bricks' Form default User Registration action.
