@@ -136,7 +136,7 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
   * Save Email Template locally.
   * Load saved template locally.
   * Support Bricks form dynamic fields.(https://academy.bricksbuilder.io/article/form-element/)
-  * One click export html email template to Form Confirm Email Content.
+  * Export the HTML email template with a single click to Form Admin, Confirm Email Content, or both.
   * Button to open Media Library, select image as needed. Image Url will be copy to clipboard. You can paste into Unlayer Image Block Url input.
 
 * Advance User Registration (Module)
