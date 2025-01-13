@@ -280,7 +280,7 @@ In-Progress
 ![Datepicker](https://github.com/user-attachments/assets/6c339fdb-eee8-4900-81ec-10773ebe3c37)
 
 #### HTML Email Template Builder
-![Email Template Builder](https://github.com/user-attachments/assets/e2ae781d-74ef-402e-8b9c-5cee2e660440)
+![Email Template Builder](https://github.com/user-attachments/assets/7bc37bc6-9fdf-4de5-b7dc-383873bc00c5)
 
 #### Form Advance User Registration
 ![Advance Registration](https://github.com/user-attachments/assets/20fef07c-c3d9-4d1b-a0ed-3618617481ce)
