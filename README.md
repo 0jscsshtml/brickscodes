@@ -23,7 +23,7 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * A favorite button is available on all remote templates.
 * All templates marked as favorites will be added to your custom favorite remote template library.
 * Remove favorite templates using either the favorite or remove button.
-###### Query Manager
+###### Query Manager (https://bricksbuilder.io/ideas/#12214)
 * First load automatically pulling all query settings from element across entire site and save as first query records in query manager modal.
 * Save new query record - Set your query settings on element as usual, once finalized, click save, give a query name/tag/description and save.
 * Apply existing query records - Open query manager modal, select from the record, click apply, query settings will populate to the element query control.
@@ -31,14 +31,14 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * If plugin deactivated or feature disabled, your elements query settings will continue to work. Saved query records will be reset.
 ###### Add New Elements Shortcut Bar
 * New shortcut bar at Structure Panel to quickly add predefined common elements and auto set active to the newly added element.
-###### Element Visibility in Builder/Frontend
+###### Element Visibility in Builder/Frontend (https://bricksbuilder.io/ideas/#8663)
 * Apply Global Class 'bc-hide-in-canvas' to element, element will render in Frontend but hide in Builder. 
 * Apply Global Class 'bc-hide-in-frontend' to element, element will not render in Frontend, element with red border render in Canvas.
 * New action shortcut bar at Structure Panel to quickly toggle to check elements in 'bc-hide-in-canvas' and 'bc-hide-in-frontend.
 ###### Expand/Collapse All Children of Active Element
 * New action shortcut bar at Structure Panel to quickly toggle to expand/collapse current active element at Structure Panel.
 ## Conditions
-###### New Template Condition Control
+###### New Template Condition Control (https://bricksbuilder.io/ideas/#5978)
 * New control allow you to use dynamic data from custom field, compare the value you defined and add the score 10 to template.
 ## Dynamic Tags
 ###### User Ip Address
@@ -64,7 +64,7 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Support glb/gltf, model animation, lazy load, camera control, etc. More info here https://modelviewer.dev/docs/
 ###### Image Before After Viewer
 * Convert the library from https://image-compare-viewer.netlify.app/ into Bricks Builder element.
-###### Image Hotspots (from Codepen https://codepen.io/abcretrograde/pen/dKGOEL)
+###### Image Hotspots (from Codepen https://codepen.io/abcretrograde/pen/dKGOEL) (https://bricksbuilder.io/ideas/#4958)
 * Hotspot Content
   * Support static and query loop content.
   * Option to always show title.
@@ -78,7 +78,7 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
   * Image srcset suuport.
 ###### Lottie Player
 * Support the new DotLottie format (.lottie) alongside traditional .json files. Files can be added via media uploads, dynamic data sources, or custom URLs. Leverage the DotLottieWorker for optimized animation rendering. Provide support for configurable options such as speed, mode, autoplay, loop, and start-end frames. More information here https://developers.lottiefiles.com/docs/dotlottie-player/dotlottie-web/
-###### Copy to Clipboard Button
+###### Copy to Clipboard Button (https://bricksbuilder.io/ideas/#8270)
 * Support Dynamic tag as copy content.
 * Specify class/id to copy its text content, option to specfiy tags to exlude.
 * Specify element bricks id and automatically pull element json as copy content. (require user log in to copy)
@@ -104,13 +104,13 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Play/Pause button for autoplay and autoscroll.
 * Disable Slider at selected breakpoint.
 ###### Tabs Nested
-* Enhance Tabs Nested with Controls such as Tab Menu Horizontol Scroll, Vertical Tab Menu, Convert to Accordion by selected breakpoint.
+* Enhance Tabs Nested with Controls such as Tab Menu Horizontol Scroll, Vertical Tab Menu, Convert to Accordion by selected breakpoint. (https://bricksbuilder.io/ideas/#8314)
 * The rest can be handle by Bricks Interactions for content animation with target .brx-open
 ###### Back to Top
 * Add scroll progress to Back to Top Element.
 * When enabled, adding a Back to Top element will automatically include a scroll progress indicator. Customize its style as desired.
 ###### Form
-* Icon Radio/Checkbox
+* Icon Radio/Checkbox (https://bricksbuilder.io/ideas/#13326)
 * Extra HTML5 pattern attribute for Password and Email field type. Validate in frontend with pure HTML5 validation and backend with form validation hook.
 * International telephone support seamlessly integrates with the Bricks form's Tel field type. Automatically detects the user's country using multiple free lookup services, ensuring reliability even if some services fail. Provides real-time telephone number validation and saves the number in full, including the country code. (https://github.com/jackocnr/intl-tel-input)
 * Password visibility toggle integrate to Bricks form's password field. (depreciated and removed)
@@ -141,7 +141,7 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 
 * Advance User Registration (Module)
   * Seamlessly integrates with Bricks' Form default User Registration action.
-  * Offers an option to validate user email addresses using a secure, time-based activation link before creating the user account.
+  * Offers an option to validate user email addresses using a secure, time-based activation link before creating the user account. (https://bricksbuilder.io/ideas/#13319)
     * When enabled, all form fields except the email field are removed (not rendered) on the frontend.
     * Validates the user's email address before sending the activation link.
     * Once the user receives the activation link and clicks it, they are redirected back to the form page. The link and email address are validated. If validation is successful, all form fields become available, with the email address pre-filled.
@@ -185,7 +185,7 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
   * For WordPress options, you can update any option by providing the option name. For array-type options, you need to provide both the option name and the specific key.
   * Supports updating ACF options pages. You can select an ACF options page from the list, and the corresponding fields will automatically populate in the repeater mapping field.
 
-* Form Multi Steps From (Module)
+* Form Multi Steps From (Module) (https://bricksbuilder.io/ideas/#4149)
   * Enabling Multi-Steps mode adds a new control 'step group' to all form field types.
   * Assign form fields to dedicated step group as needed.
   * Once all fields are assigned to step groups, enable step progress navigation bar. A step progress component using the native Bricks List Element is automatically created with all step groups.
@@ -194,7 +194,7 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
   * Option torreview the full form on the last step.
   * Option to show all form groups in Builder.
 
-* Form Webhook (Module)
+* Form Webhook (Module) (https://bricksbuilder.io/ideas/#4085)
   * Introduces a custom form action: 'webhook'.
   * Provides options to exclude specific form fields from data submission.
   * Includes a repeater field to add multiple webhook URLs.
