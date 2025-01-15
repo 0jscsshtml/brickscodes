@@ -40,6 +40,9 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 ## Conditions
 ###### New Template Condition Control (https://bricksbuilder.io/ideas/#5978)
 * New control allow you to use dynamic data from custom field, compare the value you defined and add the score 10 to template.
+## Interactions
+###### New Keyboard Escape Event Interactions
+* New Trigger control for keyboard escape event. Works with all actions.
 ## Dynamic Tags
 ###### User Ip Address
 * {bc_user_ip}
@@ -229,6 +232,10 @@ In-Progress
 
 #### Query Manager
 ![Query Manager](https://github.com/user-attachments/assets/f5721e97-89b0-47d6-8dfd-e3b3055d049b)
+
+#### New Escape Event Interactions && New Custom Field Template Condition
+<img src="https://github.com/user-attachments/assets/b957f5e5-9455-4497-ab60-715475688213" width="48%">
+<img src="https://github.com/user-attachments/assets/2bc8217d-3e5d-4145-8b38-14fb3c8d67c6" width="48%">
 
 #### Core Framework Free Integration
 ![Core Framework](https://github.com/user-attachments/assets/63ef2fd7-9a94-4991-b9da-b0fb90965685)
