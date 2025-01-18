@@ -238,7 +238,7 @@ In-Progress
 ![Query Manager](https://github.com/user-attachments/assets/f5721e97-89b0-47d6-8dfd-e3b3055d049b)
 
 #### Disable Icon Library Selection in Builder
-![Disable Icon Library](https://github.com/user-attachments/assets/885e4811-3f8f-4e5a-b4b0-20e23caefcbf)
+![Disable Icon Library](https://github.com/user-attachments/assets/cb4e0552-fa69-44b2-9105-46ffb5e959a9)
 
 #### New Escape Event Interactions && New Custom Field Template Condition
 <img src="https://github.com/user-attachments/assets/b957f5e5-9455-4497-ab60-715475688213" width="48%">
