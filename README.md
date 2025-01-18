@@ -37,6 +37,10 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * New action shortcut bar at Structure Panel to quickly toggle to check elements in 'bc-hide-in-canvas' and 'bc-hide-in-frontend.
 ###### Expand/Collapse All Children of Active Element
 * New action shortcut bar at Structure Panel to quickly toggle to expand/collapse current active element at Structure Panel.
+###### Disable Icon Library Selection
+* When this feature is enable, it will automatically disable icon libraries selection except SVG in Builder.
+* All Elements default icon set by Bricks will be automatically unset.
+* Addtionally Controls added in Bricks -> Settings -> Page Settings. You can enable it on per page basis to dequeue icon libraries and unset icons other than SVG in frontend. Disable it will revert back to normal. 
 ## Conditions
 ###### New Template Condition Control (https://bricksbuilder.io/ideas/#5978)
 * New control allow you to use dynamic data from custom field, compare the value you defined and add the score 10 to template.
@@ -232,6 +236,9 @@ In-Progress
 
 #### Query Manager
 ![Query Manager](https://github.com/user-attachments/assets/f5721e97-89b0-47d6-8dfd-e3b3055d049b)
+
+#### Disable Icon Library Selection in Builder
+![Disable Icon Library](https://github.com/user-attachments/assets/f417947b-7450-4617-95f9-dc0ffb6d8d2f)
 
 #### New Escape Event Interactions && New Custom Field Template Condition
 <img src="https://github.com/user-attachments/assets/b957f5e5-9455-4497-ab60-715475688213" width="48%">
