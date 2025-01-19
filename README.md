@@ -37,10 +37,15 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * New action shortcut bar at Structure Panel to quickly toggle to check elements in 'bc-hide-in-canvas' and 'bc-hide-in-frontend.
 ###### Expand/Collapse All Children of Active Element
 * New action shortcut bar at Structure Panel to quickly toggle to expand/collapse current active element at Structure Panel.
-###### Disable Icon Library Selection
-* When this feature is enable, it will automatically disable icon libraries selection except SVG in Builder.
-* All Elements default icon set by Bricks will be automatically unset.
-* Addtionally Controls added in Bricks -> Settings -> Page Settings. You can enable it on per page basis to dequeue icon libraries and unset icons other than SVG in frontend. Disable it will revert back to normal. 
+###### Disable Bricks Animation and Icon Libraries Assets in frontend. Disable Icon Libraries Selection in Builder except SVG
+* Disable Icon Libraries
+  * When this feature is enable, it will automatically disable icon libraries selection except SVG in Builder.
+  * All Elements default icon set by Bricks will be automatically unset.
+  * Addtionally Controls added in Bricks -> Settings -> Page Settings. You can enable it on per page basis to dequeue icon libraries and unset icons other than SVG in frontend. Disable it will revert back to normal.
+* Disable Animation Stylesheet
+  * To use your custom animations exclusively, enable this option on a per-page basis and dequeue the Bricks animation stylesheet on the frontend.
+  * Follow this link https://academy.bricksbuilder.io/article/add-custom-animation-to-interaction/ to create your own custom animation class. Put your custom animations css in Settings -> Page Settings -> Custom Code -> Custom CSS.
+  * Disable this will revert back to normal.
 ## Conditions
 ###### New Template Condition Control (https://bricksbuilder.io/ideas/#5978)
 * New control allow you to use dynamic data from custom field, compare the value you defined and add the score 10 to template.
