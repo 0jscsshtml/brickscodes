@@ -41,7 +41,7 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Disable Icon Libraries
   * When this feature is enable, it will automatically disable icon libraries selection except SVG in Builder.
   * All Elements default icon set by Bricks will be automatically unset.
-  * Addtionally Controls added in Bricks -> Settings -> Page Settings. You can enable it on per page basis to dequeue icon libraries and unset icons other than SVG in frontend. Disable it will revert back to normal.
+  * Addtional Controls added in Bricks -> Settings -> Page Settings. You can enable it on per page basis to dequeue icon libraries and unset icons other than SVG in frontend. Disable it will revert back to normal.
 * Disable Animation Stylesheet
   * To use your custom animations exclusively, enable this option on a per-page basis and dequeue the Bricks animation stylesheet on the frontend.
   * Follow this link https://academy.bricksbuilder.io/article/add-custom-animation-to-interaction/ to create your own custom animation class. Put your custom animations css in Settings -> Page Settings -> Custom Code -> Custom CSS.
@@ -88,7 +88,7 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * Hotspot Image
   * Source from media/url/dynamic data
   * Image srcset suuport.
-###### Lottie Player
+###### Lottie Player (https://bricksbuilder.io/ideas/#3706)
 * Support the new DotLottie format (.lottie) alongside traditional .json files. Files can be added via media uploads, dynamic data sources, or custom URLs. Leverage the DotLottieWorker for optimized animation rendering. Provide support for configurable options such as speed, mode, autoplay, loop, and start-end frames. More information here https://developers.lottiefiles.com/docs/dotlottie-player/dotlottie-web/
 ###### Copy to Clipboard Button (https://bricksbuilder.io/ideas/#8270)
 * Support Dynamic tag as copy content.
@@ -242,8 +242,8 @@ In-Progress
 #### Query Manager
 ![Query Manager](https://github.com/user-attachments/assets/f5721e97-89b0-47d6-8dfd-e3b3055d049b)
 
-#### Disable Icon Library Selection in Builder
-![Disable Icon Library](https://github.com/user-attachments/assets/cb4e0552-fa69-44b2-9105-46ffb5e959a9)
+#### Disable Animation and Icon Library Assets in Frontend. Disable Icon libraries Selection in Builder.
+![Disable Icon Library](https://github.com/user-attachments/assets/112d16d5-f5cd-436d-9be0-3249d1fd5db5)
 
 #### New Escape Event Interactions && New Custom Field Template Condition
 <img src="https://github.com/user-attachments/assets/b957f5e5-9455-4497-ab60-715475688213" width="48%">
