@@ -256,6 +256,9 @@ In-Progress
 <img src="https://github.com/user-attachments/assets/b957f5e5-9455-4497-ab60-715475688213" width="48%">
 <img src="https://github.com/user-attachments/assets/2bc8217d-3e5d-4145-8b38-14fb3c8d67c6" width="48%">
 
+#### Global Classes and Variables Manager Enhancement
+![Class Manager](https://github.com/user-attachments/assets/35847889-ddc2-448c-a411-b54e76b98966)
+
 #### Core Framework Free Integration
 ![Core Framework](https://github.com/user-attachments/assets/63ef2fd7-9a94-4991-b9da-b0fb90965685)
 
