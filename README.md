@@ -37,6 +37,9 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 * New action shortcut bar at Structure Panel to quickly toggle to check elements in 'bc-hide-in-canvas' and 'bc-hide-in-frontend.
 ###### Expand/Collapse All Children of Active Element
 * New action shortcut bar at Structure Panel to quickly toggle to expand/collapse current active element at Structure Panel.
+###### One Click Copy Element Styles and Reset in Context Menu
+* Addtional action button added in to context menu copy action item. This will enable you to copy current active element styles to clipbord and reset all styles of this element.
+* You can now paste this into an element or class. It is fully compatible with Bricks' native paste style action.
 ###### Disable Bricks Animation and Icon Libraries Assets in frontend. Disable Icon Libraries Selection in Builder except SVG
 * Disable Icon Libraries
   * When this feature is enable, it will automatically disable icon libraries selection except SVG in Builder.
@@ -63,6 +66,10 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 ###### Post Terms
 * {bc_post_type_taxonomy_terms:post_type_slug:taxonomy_slug} - This will return terms id and name for select/checkbox/radio options. Replace post_type_slug and taxonomy_slug to your target slug.
 ## Global Classes and Variables
+###### Global Classes and Variables Manager Plus.
+* Manage styles easily in Manager popup:
+* Copy styles from a selected class and paste them onto a group of selected classes.
+* Explore the additional Class Tab Content, which displays details about the selected class, including current settings and the generated CSS output in CodeMirror.
 ###### Core Framework Free Integration (reference: https://docs.coreframework.com/development/coreframework-helper )
 * Auto sync changes that made on Core Framework settings page to Builder.
 * All Core Framework classes and variable are auto import to Builder.
