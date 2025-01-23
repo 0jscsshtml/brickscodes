@@ -40,6 +40,9 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 ###### One Click Copy Element Styles and Reset in Context Menu
 * Addtional action button added in to context menu copy action item. This will enable you to copy current active element styles to clipbord and reset all styles of this element.
 * You can now paste this into an element or class. It is fully compatible with Bricks' native paste style action.
+###### One Click Reset Current Active Breakpoint Styles from Current Active Element/Class
+* If an active class is present in the element's class list, reset the current active breakpoint style from that active class.
+* If there is no active class in the element's class list, reset the current active breakpoint style from the active element.
 ###### Disable Bricks Animation and Icon Libraries Assets in frontend. Disable Icon Libraries Selection in Builder except SVG
 * Disable Icon Libraries
   * When this feature is enable, it will automatically disable icon libraries selection except SVG in Builder.
