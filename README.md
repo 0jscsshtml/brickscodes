@@ -259,6 +259,9 @@ In-Progress
 <img src="https://github.com/user-attachments/assets/b957f5e5-9455-4497-ab60-715475688213" width="48%">
 <img src="https://github.com/user-attachments/assets/2bc8217d-3e5d-4145-8b38-14fb3c8d67c6" width="48%">
 
+#### One Click Copy Element Styles and Reset ID Styles in Context Menu && One Click Reset Current Active Breakpoint Styles from Current Active Element/Class
+![Reset Styles](https://github.com/user-attachments/assets/678d3aeb-f88b-4807-980d-d124bf5ab972)
+
 #### Global Classes and Variables Manager Enhancement
 ![Class Manager](https://github.com/user-attachments/assets/35847889-ddc2-448c-a411-b54e76b98966)
 
