@@ -232,6 +232,21 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
   * Set form custom action 'Confirm Before Submit', Select your popup template.
   * When the user clicks send/submit on the form, a confirmation popup will automatically appear, but only if all validations are successfully passed. No actions will proceed until the user confirms the submission.
 
+## Woocommerce
+###### Checkout order review
+* Add product thumbnail with product permalink.
+* Add remove button on each product and ajax update checkout table.
+
+###### Checkout customer details
+* Add new controls to easily reorder the billing and shipping fields, support field width as well. 
+* Add new controls to add custom fields(select/checkbox/text type) to location after billing/shipping/order section.
+
+###### Add to Cart Button
+* Add new control to enable button as Buy Now Button.
+* Support button with the Ajax Add to Cart enabled, quantity input fields enbaled.
+* Default action add the current Buy Now product and redirect to Checkout page with all the existing products in the Cart.
+* Options to empty carts and add the only Buy Now product then redirect to Checkout page.
+
 ## Others
 ###### Lenis Smooth Scroll
 * A new Lenis control group has been added under Settings → Page Settings in the Builder:
