@@ -234,12 +234,17 @@ Elevate your Bricks Builder experience with this powerful plugin designed to sea
 
 ## Woocommerce
 ###### Checkout order review
-* Add product thumbnail with product permalink.
-* Add remove button on each product and ajax update checkout table.
+* Option to add product thumbnail with product permalink.
+* Option to add remove button on each product and ajax update checkout table.
+* Option to add quantity input on each product and ajax update checkout table.
+* Option to add Shop/Cart link in Order Summary Title 
 
 ###### Checkout customer details
 * Add new controls to easily reorder the billing and shipping fields, support field width as well. 
 * Add new controls to add custom fields(select/checkbox/text type) to location after billing/shipping/order section.
+
+###### Product Tabs
+* Add new control to add additionl tabs.
 
 ###### Add to Cart Button
 * Add new control to enable button as Buy Now Button.
@@ -353,8 +358,12 @@ In-Progress
 #### Form Frontend Form with Repeater Fields
 ![Repeater fields](https://github.com/user-attachments/assets/28179ae9-aa40-43c7-92a8-96e987e6f97f)
 
+#### Native Woo Elements Plus
+![Woo 1](https://github.com/user-attachments/assets/a8fa95aa-6a25-49d8-8d54-1c6320d5838c)
+
 #### Offline Brickscodes Remote Templates
 ![Remote Templates](https://github.com/user-attachments/assets/14d7ed54-2241-4c58-af81-89a0d1db8358)
 
 #### Plugin Update
 ![Update](https://github.com/user-attachments/assets/e2472580-4da5-4cac-91ab-8985a13fb989)
+
